@@ -1,0 +1,11 @@
+framework module react_native_video_editor {
+  umbrella header "react-native-video-editor-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module react_native_video_editor.Swift {
+    header "react_native_video_editor-Swift.h"
+    requires objc
+}

@@ -1,0 +1,6 @@
+framework module RNTiniWorker {
+  umbrella header "RNTiniWorker-umbrella.h"
+
+  export *
+  module * { export * }
+}

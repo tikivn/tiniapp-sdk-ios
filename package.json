@@ -1,0 +1,12 @@
+{
+  "name": "TiniAppSDK",
+  "version": "1.9.0",
+  "description": "Description of TiniAppSDK",
+  "author": "Liam Vuong <lamvd0101@gmail.com>",
+  "homepage": "https://github.com/tikivn/tiniapp-sdk-ios#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tikivn/tiniapp-sdk-ios.git"
+  }
+}

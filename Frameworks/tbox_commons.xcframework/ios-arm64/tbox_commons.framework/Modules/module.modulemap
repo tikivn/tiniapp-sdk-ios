@@ -1,0 +1,6 @@
+framework module tbox_commons {
+  umbrella header "tbox-commons-umbrella.h"
+
+  export *
+  module * { export * }
+}

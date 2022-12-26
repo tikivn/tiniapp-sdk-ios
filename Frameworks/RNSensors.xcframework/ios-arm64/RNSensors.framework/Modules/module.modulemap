@@ -1,0 +1,6 @@
+framework module RNSensors {
+  umbrella header "RNSensors-umbrella.h"
+
+  export *
+  module * { export * }
+}

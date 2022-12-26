@@ -1,0 +1,92 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TiniAppSDK
+import Foundation
+import RNTiniWorker
+import React
+import Swift
+@_exported import TiniAppSDK
+import UIKit
+import _Concurrency
+@objc @objcMembers public class TiniUser : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var id: Swift.String
+  @objc public var name: Swift.String
+  @objc public var email: Swift.String?
+  @objc public var phoneNumber: Swift.String?
+  @objc public init(id: Swift.String, name: Swift.String, email: Swift.String? = nil, phoneNumber: Swift.String? = nil)
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class TiniAppSDK : ObjectiveC.NSObject {
+  @objc(sharedInstance) public static var shared: TiniAppSDK {
+    get
+  }
+  @objc final public var configuration: TiniAppConfiguration! {
+    get
+  }
+  @objc weak final public var delegate: TiniAppSDKDelegate?
+  @objc public static func config(with config: TiniAppConfiguration)
+  @objc final public func changeEnv(_ env: TiniEnv)
+  @objc final public func openMiniApp(appId: Swift.String, pathPath: Swift.String?, params: [Swift.String : Any]?) -> TiniAppViewController
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol TiniAppSDKDelegate {
+  @objc func closeApp(completedHandler: () -> Swift.Void)
+  @objc func getUserInfo(completedHandler: (TiniUser?, Swift.Error?) -> Swift.Void)
+  @objc func openPayment(transactionId: Swift.String, amount: Swift.Double, completedHandler: @escaping ([Swift.String : Any]?, Swift.Error?) -> Swift.Void)
+}
+extension React.RCTBridge {
+  convenience public init?(moduleProvider: @escaping React.RCTBridgeModuleListProvider, launchOptions: [Swift.AnyHashable : Any])
+}
+extension React.RCTRootView {
+  @_Concurrency.MainActor(unsafe) convenience public init?(props: [Swift.String : Any])
+  @_Concurrency.MainActor(unsafe) convenience public init?(bridge: React.RCTBridge, props: [Swift.String : Any])
+}
+@objc public enum TiniEnv : Swift.Int {
+  case uat
+  case prod
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers final public class TiniAppConfiguration : ObjectiveC.NSObject {
+  @objc final public var partnerCode: Swift.String!
+  @objc final public var clientId: Swift.String!
+  @objc final public var debugMode: Swift.Bool
+  @objc final public var env: TiniEnv
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Foundation.Bundle {
+  public static func getTiniAppBundle() -> Foundation.URL?
+}
+@_inheritsConvenienceInitializers @objcMembers @objc(TiniApplicationDelegate) final public class TiniAppApplicationDelegate : ObjectiveC.NSObject {
+  @objc(sharedInstance) public static var shared: TiniAppApplicationDelegate {
+    get
+  }
+  @discardableResult
+  @objc(application:continueUserActivity:) final public func application(_ application: UIKit.UIApplication, continue userActivity: Foundation.NSUserActivity) -> Swift.Bool
+  @discardableResult
+  @objc(application:openURL:options:) final public func application(_ application: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]) -> Swift.Bool
+  @discardableResult
+  @objc(application:openURL:sourceApplication:annotation:) final public func application(_ application: UIKit.UIApplication, open url: Foundation.URL, sourceApplication: Swift.String?, annotation: Any?) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class TiniAppViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var appId: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var pagePath: Swift.String?
+  @_Concurrency.MainActor(unsafe) public var params: [Swift.String : Any]?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func loadView()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension TiniEnv : Swift.Equatable {}
+extension TiniEnv : Swift.Hashable {}
+extension TiniEnv : Swift.RawRepresentable {}

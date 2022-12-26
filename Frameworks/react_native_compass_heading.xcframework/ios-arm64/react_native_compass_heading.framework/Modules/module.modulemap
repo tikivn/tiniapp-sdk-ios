@@ -1,0 +1,6 @@
+framework module react_native_compass_heading {
+  umbrella header "react-native-compass-heading-umbrella.h"
+
+  export *
+  module * { export * }
+}
