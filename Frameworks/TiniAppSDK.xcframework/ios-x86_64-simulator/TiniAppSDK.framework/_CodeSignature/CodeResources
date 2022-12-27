@@ -4,19 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AccessibilityResources.bundle/Info.plist</key>
-		<data>
-		+qw+GlwPKw81PkI2wSImaze5vfs=
-		</data>
-		<key>AccessibilityResources.bundle/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X9E0vQNrSNVBkgqtimYht4o7EEg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/TiniAppSDK-Swift.h</key>
 		<data>
 		2n6tygT8jSq+4UYEbWBidxz7bqo=
@@ -39,7 +26,7 @@
 		</data>
 		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lMSvZnSY69weSE/obYhGzYB1Yxg=
+		GPCiwwz5YK3nSmuVAzlesZCQwoc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -246,7 +233,7 @@
 		</dict>
 		<key>TOCropViewControllerBundle.bundle/Info.plist</key>
 		<data>
-		nm0pBo0ErvuoipGeI6BzsRe5lUM=
+		nhq4BUWhi+Z3r9yc8jISUrX/zyw=
 		</data>
 		<key>TOCropViewControllerBundle.bundle/ar.lproj/TOCropViewControllerLocalizable.strings</key>
 		<dict>
@@ -378,7 +365,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ec0FMlpxwXr+kMjvlO4AjGT4kME=
+			Iwh4b74rKw69c3ajJ6GBbESqJcY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -538,27 +525,11 @@
 		</data>
 		<key>tiniapp-runtime.jsbundle</key>
 		<data>
-		TSSx324oNux1lCLPsLJ49L4xbB8=
+		uGp8MIvtfR5w7WYbE0YuTkHHHEg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AccessibilityResources.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dXn0eW+K41mziuJwCJefF47PfvIu/uWlMCsGg3ctnZg=
-			</data>
-		</dict>
-		<key>AccessibilityResources.bundle/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			w1hfj69Kbb8WcP7mQdPFb//Z6XisMBZJwk6rwYndD5Y=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/TiniAppSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -591,7 +562,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			21vgzSJcTScWO0btvDNOYiG9Wuu8NIxMh2+7IN3BSRA=
+			4yVSgFwIpuAMnGNK4u7dy0xrUddmFFKYINf+Wb7N+bo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -852,7 +823,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z18MIJc4N9lnU41Bsv6oUd7hgmgbuYjjTGDB8VO+d8Y=
+			INRU/4AhT9BjiJc3fZnEq1rtZfgKUEZ1TxymeGgPoEs=
 			</data>
 		</dict>
 		<key>TOCropViewControllerBundle.bundle/ar.lproj/TOCropViewControllerLocalizable.strings</key>
@@ -985,7 +956,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g08XOwnCfbysHfLiDfdqqhzDafk/jmsDKiSc8Og7I3k=
+			ZVvNCp0WDyjoB3PsKvxDnYX/3oZwWAkKXWhkN8fOjK0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1174,7 +1145,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E6lBg88EgQuFGGID99V662XsFFFOgJJmZvydI9H5Wbc=
+			sXvsPophiAHYCN9ok+MeGM0yHTDPQwI+a1BvjdyiK3g=
 			</data>
 		</dict>
 	</dict>

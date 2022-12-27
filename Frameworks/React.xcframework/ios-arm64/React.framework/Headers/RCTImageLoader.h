@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -8,7 +8,6 @@
 #import <UIKit/UIKit.h>
 
 #import <React/RCTBridge.h>
-#import <React/RCTDefines.h>
 #import <React/RCTResizeMode.h>
 #import <React/RCTURLRequestHandler.h>
 #import <React/RCTImageDataDecoder.h>

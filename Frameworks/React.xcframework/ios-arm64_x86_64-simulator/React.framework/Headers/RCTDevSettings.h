@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -7,7 +7,6 @@
 
 #import <React/RCTBridge.h>
 #import <React/RCTDefines.h>
-#import <React/RCTEventEmitter.h>
 
 @protocol RCTPackagerClientMethod;
 
@@ -30,7 +29,7 @@
 
 @end
 
-@interface RCTDevSettings : RCTEventEmitter
+@interface RCTDevSettings : NSObject
 
 - (instancetype)initWithDataSource:(id<RCTDevSettingsDataSource>)dataSource;
 
@@ -57,9 +56,20 @@
 @property (nonatomic, assign, setter=setProfilingEnabled:) BOOL isProfilingEnabled;
 
 /**
+ * Whether automatic polling for JS code changes is enabled. Only applicable when
+ * running the app from a server.
+ */
+@property (nonatomic, assign, setter=setLiveReloadEnabled:) BOOL isLiveReloadEnabled;
+
+/**
  * Whether hot loading is enabled.
  */
 @property (nonatomic, assign, setter=setHotLoadingEnabled:) BOOL isHotLoadingEnabled;
+
+/**
+ * Toggle the element inspector.
+ */
+- (void)toggleElementInspector;
 
 /**
  * Enables starting of profiling sampler on launch
@@ -76,19 +86,8 @@
  */
 @property (nonatomic, assign) BOOL isPerfMonitorShown;
 
-/**
- * Toggle the element inspector.
- */
-- (void)toggleElementInspector;
-
-/**
- * If loading bundle from metro, sets up HMRClient.
- */
-- (void)setupHotModuleReloadClientIfApplicableForURL:(NSURL *)bundleURL;
-
-#if RCT_DEV_MENU
-- (void)addHandler:(id<RCTPackagerClientMethod>)handler
-    forPackagerMethod:(NSString *)name __deprecated_msg("Use RCTPackagerConnection directly instead");
+#if RCT_DEV
+- (void)addHandler:(id<RCTPackagerClientMethod>)handler forPackagerMethod:(NSString *)name __deprecated_msg("Use RCTPackagerConnection directly instead");
 #endif
 
 @end
@@ -98,8 +97,3 @@
 @property (nonatomic, readonly) RCTDevSettings *devSettings;
 
 @end
-
-// In debug builds, the dev menu is enabled by default but it is further customizable using this method.
-// However, this method only has an effect in builds where the dev menu is actually compiled in.
-// (i.e. RCT_DEV or RCT_DEV_MENU is set)
-RCT_EXTERN void RCTDevSettingsSetEnabled(BOOL enabled);

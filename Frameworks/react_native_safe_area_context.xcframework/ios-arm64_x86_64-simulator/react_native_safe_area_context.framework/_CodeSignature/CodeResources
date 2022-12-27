@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RCTView+SafeAreaCompat.h</key>
 		<data>
-		r56iQ2qayAl42HuEO3r3ijPAB10=
+		UnJaz+CR5f9Cmt0DY7kw7WCCb+A=
 		</data>
 		<key>Headers/RNCSafeAreaProvider.h</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>Headers/RNCSafeAreaView.h</key>
 		<data>
-		vD+un9ZfbWT8ffDD8pr37UuBwOk=
+		MCYYUtiyXqv0QEdJ5GO8E7lHAtU=
 		</data>
 		<key>Headers/RNCSafeAreaViewEdges.h</key>
 		<data>
-		8yJen+yE7EOof3Utg4xLZ87eMhE=
+		2TvYHs4McJnYxoMMmeNsPnG13yo=
 		</data>
 		<key>Headers/RNCSafeAreaViewLocalData.h</key>
 		<data>
-		C3GVdeJsPBhAF3/AIpN6qF3sOso=
+		KuzptMP2fdIOIvF0gfEg2WT/z2I=
 		</data>
 		<key>Headers/RNCSafeAreaViewManager.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ol28UXAPc9khZViAM9Pc68tJIA0=
+		esIhKvNSAU70NmyfB5N7PJAHRY0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,11 +59,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r56iQ2qayAl42HuEO3r3ijPAB10=
+			UnJaz+CR5f9Cmt0DY7kw7WCCb+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			TGS+YBEnS6mZABtX2xBQyHn8J7iszCdKtonbc3fJMbY=
+			HBL6XZuclTjXEuMGr1XRW0tfegE6MpIx/A0dk7Xd1CM=
 			</data>
 		</dict>
 		<key>Headers/RNCSafeAreaProvider.h</key>
@@ -103,33 +103,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vD+un9ZfbWT8ffDD8pr37UuBwOk=
+			MCYYUtiyXqv0QEdJ5GO8E7lHAtU=
 			</data>
 			<key>hash2</key>
 			<data>
-			u3VWhpqs0UxII5uv5m0PrBLZ57EUCSk5KfZ7SInQswM=
+			Eyn3c0Fu+bWk1s2lD++5bpVpL3Q2y4J3f5mwOQHWr3U=
 			</data>
 		</dict>
 		<key>Headers/RNCSafeAreaViewEdges.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8yJen+yE7EOof3Utg4xLZ87eMhE=
+			2TvYHs4McJnYxoMMmeNsPnG13yo=
 			</data>
 			<key>hash2</key>
 			<data>
-			VJqroyPuiDuI7kf/ylCobo+/Pc40pkkn+lTMxNZkZ4k=
+			CFdF2o1VOMae8fUG1dqfomab0lR8ALv07hw5SK5Ng00=
 			</data>
 		</dict>
 		<key>Headers/RNCSafeAreaViewLocalData.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C3GVdeJsPBhAF3/AIpN6qF3sOso=
+			KuzptMP2fdIOIvF0gfEg2WT/z2I=
 			</data>
 			<key>hash2</key>
 			<data>
-			2yLbuE+ipH3TAoaOfy/Mme2Vyin3/AOHIdgW25gXeFc=
+			QlMVZaszld7Vzjsr0b5e/VE3DUFSw3/Mr/aKd+6JPLg=
 			</data>
 		</dict>
 		<key>Headers/RNCSafeAreaViewManager.h</key>

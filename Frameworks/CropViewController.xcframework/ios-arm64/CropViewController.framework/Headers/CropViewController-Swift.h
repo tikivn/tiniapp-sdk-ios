@@ -221,8 +221,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 @class NSBundle;
 
-/// <hr/>
-/// <h2>@name Class</h2>
 SWIFT_CLASS("_TtC18CropViewController18CropViewController")
 @interface CropViewController : UIViewController <TOCropViewControllerDelegate>
 /// Set the title text that appears at the top of the view controller
@@ -245,8 +243,6 @@ SWIFT_CLASS("_TtC18CropViewController18CropViewController")
 
 @class UIImage;
 
-/// <hr/>
-/// <h2>@name Delegate</h2>
 SWIFT_PROTOCOL("_TtP18CropViewController26CropViewControllerDelegate_")
 @protocol CropViewControllerDelegate <NSObject>
 @optional
@@ -254,7 +250,7 @@ SWIFT_PROTOCOL("_TtP18CropViewController26CropViewControllerDelegate_")
 /// just the cropping rectangle.
 /// @param cropRect A rectangle indicating the crop region of the image the user chose (In the original image’s local co-ordinate space)
 /// @param angle The angle of the image when it was cropped
-- (void)cropViewController:(CropViewController * _Nonnull)cropViewController didCropImageToRect:(CGRect)rect angle:(NSInteger)angle;
+- (void)cropViewController:(CropViewController * _Nonnull)cropViewController didCropImageToRect:(CGRect)cropRect angle:(NSInteger)angle;
 /// Called when the user has committed the crop action, and provides
 /// both the original image with crop co-ordinates.
 /// @param image The newly cropped image.

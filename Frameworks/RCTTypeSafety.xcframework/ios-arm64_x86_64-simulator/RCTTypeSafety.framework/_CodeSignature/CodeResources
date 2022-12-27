@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RCTConvertHelpers.h</key>
 		<data>
-		HvTf8qpeyBc20go1clyabAFHKP0=
+		8sJZUbz7RUIJtZ/3YS1PITY0wzo=
 		</data>
 		<key>Headers/RCTTypeSafety-umbrella.h</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/RCTTypedModuleConstants.h</key>
 		<data>
-		7Furge6S7S19JpElS25jX+p/H+0=
+		eJ8CrNi20JIuJR/K23wZeSSSuV4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vPXC3hb/N59G9uVlW3H55FM4etA=
+		1CJodcANa6ardOee6NNCtXuIxyc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,11 +31,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HvTf8qpeyBc20go1clyabAFHKP0=
+			8sJZUbz7RUIJtZ/3YS1PITY0wzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			dCshPSAcPYIke9uuSwgcsnbYztKTRNx7lj7KXI1du6o=
+			+cwY7TSYqlLG13E59OdMjGgS7+5BGDN8FmdxhIA7JY0=
 			</data>
 		</dict>
 		<key>Headers/RCTTypeSafety-umbrella.h</key>
@@ -53,11 +53,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7Furge6S7S19JpElS25jX+p/H+0=
+			eJ8CrNi20JIuJR/K23wZeSSSuV4=
 			</data>
 			<key>hash2</key>
 			<data>
-			8mtdxkOhqobHNi4iEKLQdmWszkHbWoWM8JS23hn17AY=
+			Vci9eUlKst/PWJyu87VdLvHE2jNWh+86fpy0YlD7PIE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -8,7 +8,7 @@ public typealias CropViewControllerAspectRatioPreset = CropViewController.TOCrop
 public typealias CropViewControllerToolbarPosition = CropViewController.TOCropViewControllerToolbarPosition
 public typealias CropViewCroppingStyle = CropViewController.TOCropViewCroppingStyle
 @objc public protocol CropViewControllerDelegate : ObjectiveC.NSObjectProtocol {
-  @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didCropImageToRect rect: CoreGraphics.CGRect, angle: Swift.Int)
+  @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didCropImageToRect cropRect: CoreGraphics.CGRect, angle: Swift.Int)
   @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didCropToImage image: UIKit.UIImage, withRect cropRect: CoreGraphics.CGRect, angle: Swift.Int)
   @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didCropToCircularImage image: UIKit.UIImage, withRect cropRect: CoreGraphics.CGRect, angle: Swift.Int)
   @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didFinishCancelled cancelled: Swift.Bool)

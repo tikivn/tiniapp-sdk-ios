@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -8,7 +8,8 @@
 #import <UIKit/UIKit.h>
 
 #import <React/RCTBridge.h>
+#import <React/RCTBridgeModule.h>
 
-@interface RCTDeviceInfo : NSObject <RCTBridgeModule>
+@interface RCTDeviceInfo : NSObject <RCTBridgeModule, RCTInvalidating>
 
 @end

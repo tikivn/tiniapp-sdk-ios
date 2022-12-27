@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -17,7 +17,8 @@
 @property (nonatomic, assign, readonly) NSUInteger maxFPS;
 @property (nonatomic, assign, readonly) NSUInteger minFPS;
 
-- (instancetype)initWithFrame:(CGRect)frame color:(UIColor *)color NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithFrame:(CGRect)frame
+                        color:(UIColor *)color NS_DESIGNATED_INITIALIZER;
 
 - (void)onTick:(NSTimeInterval)timestamp;
 

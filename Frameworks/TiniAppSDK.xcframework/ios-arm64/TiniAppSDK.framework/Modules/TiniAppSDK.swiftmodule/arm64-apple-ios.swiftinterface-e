@@ -19,22 +19,22 @@ import _Concurrency
   required public init(from decoder: Swift.Decoder) throws
 }
 @objc @_inheritsConvenienceInitializers @objcMembers final public class TiniAppSDK : ObjectiveC.NSObject {
-  @objc(sharedInstance) public static var shared: TiniAppSDK {
+  @objc(sharedInstance) public static var shared: TiniAppSDK.TiniAppSDK {
     get
   }
-  @objc final public var configuration: TiniAppConfiguration! {
+  @objc final public var configuration: TiniAppSDK.TiniAppConfiguration! {
     get
   }
-  @objc weak final public var delegate: TiniAppSDKDelegate?
-  @objc public static func config(with config: TiniAppConfiguration)
-  @objc final public func changeEnv(_ env: TiniEnv)
-  @objc final public func openMiniApp(appId: Swift.String, pathPath: Swift.String?, params: [Swift.String : Any]?) -> TiniAppViewController
+  @objc weak final public var delegate: TiniAppSDK.TiniAppSDKDelegate?
+  @objc public static func config(with config: TiniAppSDK.TiniAppConfiguration)
+  @objc final public func changeEnv(_ env: TiniAppSDK.TiniEnv)
+  @objc final public func openMiniApp(appId: Swift.String, pathPath: Swift.String?, params: [Swift.String : Any]?) -> TiniAppSDK.TiniAppViewController
   @objc override dynamic public init()
   @objc deinit
 }
 @objc public protocol TiniAppSDKDelegate {
   @objc func closeApp(completedHandler: () -> Swift.Void)
-  @objc func getUserInfo(completedHandler: (TiniUser?, Swift.Error?) -> Swift.Void)
+  @objc func getUserInfo(completedHandler: (TiniAppSDK.TiniUser?, Swift.Error?) -> Swift.Void)
   @objc func openPayment(transactionId: Swift.String, amount: Swift.Double, completedHandler: @escaping ([Swift.String : Any]?, Swift.Error?) -> Swift.Void)
 }
 extension React.RCTBridge {
@@ -57,7 +57,7 @@ extension React.RCTRootView {
   @objc final public var partnerCode: Swift.String!
   @objc final public var clientId: Swift.String!
   @objc final public var debugMode: Swift.Bool
-  @objc final public var env: TiniEnv
+  @objc final public var env: TiniAppSDK.TiniEnv
   @objc override dynamic public init()
   @objc deinit
 }
@@ -65,7 +65,7 @@ extension Foundation.Bundle {
   public static func getTiniAppBundle() -> Foundation.URL?
 }
 @_inheritsConvenienceInitializers @objcMembers @objc(TiniApplicationDelegate) final public class TiniAppApplicationDelegate : ObjectiveC.NSObject {
-  @objc(sharedInstance) public static var shared: TiniAppApplicationDelegate {
+  @objc(sharedInstance) public static var shared: TiniAppSDK.TiniAppApplicationDelegate {
     get
   }
   @discardableResult
@@ -87,6 +87,6 @@ extension Foundation.Bundle {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-extension TiniEnv : Swift.Equatable {}
-extension TiniEnv : Swift.Hashable {}
-extension TiniEnv : Swift.RawRepresentable {}
+extension TiniAppSDK.TiniEnv : Swift.Equatable {}
+extension TiniAppSDK.TiniEnv : Swift.Hashable {}
+extension TiniAppSDK.TiniEnv : Swift.RawRepresentable {}

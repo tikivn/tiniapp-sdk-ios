@@ -4,41 +4,49 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/BridgeJSCallInvoker.h</key>
+		<data>
+		Hq8C5cP2XkHTid2Wk2W3jV9r9uE=
+		</data>
+		<key>Headers/JSCallInvoker.h</key>
+		<data>
+		x2mUps/nsW77QaYxWCHqPJKRDE8=
+		</data>
 		<key>Headers/LongLivedObject.h</key>
 		<data>
-		bvJ9rpaNUMJiFMyGeab7Mms6WsE=
+		EOwThOWviFzig6LNFE0h1RV+0uY=
 		</data>
 		<key>Headers/RCTTurboModule.h</key>
 		<data>
-		znq66vn+sNzz4ZqOO/66RXhnglA=
+		DGZMdWLCK7M2uJ3qcJbF3XQRfLE=
 		</data>
 		<key>Headers/RCTTurboModuleManager.h</key>
 		<data>
-		2mui1HhzchY+J3Ahp5FkNmfKrn0=
+		CqW6Qa9jj4VQlkXT+ZqufaaZRJE=
 		</data>
 		<key>Headers/ReactCommon-umbrella.h</key>
 		<data>
-		dvTcTFfP8EMOKIlhFXIGM2hKNaE=
+		rpqb8NniNpQWhwXq1qi1qKm6h+g=
 		</data>
 		<key>Headers/TurboCxxModule.h</key>
 		<data>
-		We5OpsfrzcPQmUfmx+fjZS4Mmp0=
+		GiRQbBqgwX13EGyPT7aOu1I6VEA=
 		</data>
 		<key>Headers/TurboModule.h</key>
 		<data>
-		H28o2FM5JKlXmmEtrZrGENF6KN0=
+		GbiUDi05CbsCoueqKAFw6uZ0Eg8=
 		</data>
 		<key>Headers/TurboModuleBinding.h</key>
 		<data>
-		GGltnDwDVUGbompjSpKLDatSnQY=
+		6qw3pKb3m8XUsKBM/P4FFCy/gNU=
 		</data>
 		<key>Headers/TurboModuleUtils.h</key>
 		<data>
-		UdS9vUv6bvEMzE5goFCvk4JTMZI=
+		AWVS0AI6fJzDTot2BcfivsthrAE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wU0A+E0s83OoP+w7pFZVzwwbAAI=
+		aIpckUZRhcZj1wicYGiWgNRo5u0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,92 +55,114 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/BridgeJSCallInvoker.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Hq8C5cP2XkHTid2Wk2W3jV9r9uE=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ch+NC+O+g5OK0jbOEpquw9ElGmeImwGHeSvrMO1CN/s=
+			</data>
+		</dict>
+		<key>Headers/JSCallInvoker.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x2mUps/nsW77QaYxWCHqPJKRDE8=
+			</data>
+			<key>hash2</key>
+			<data>
+			z7d1kEDdZOuccf4PLokhG1K88gA9aYFBulMoMbw8GzQ=
+			</data>
+		</dict>
 		<key>Headers/LongLivedObject.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bvJ9rpaNUMJiFMyGeab7Mms6WsE=
+			EOwThOWviFzig6LNFE0h1RV+0uY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+ntOZQfedLi9dNwPruqROftrXi2Ln3U4am3Mr460uzk=
+			cIxUYbdVHzqgjPn9G6eOaM82Ucp9OVqBqSmcMIggAdU=
 			</data>
 		</dict>
 		<key>Headers/RCTTurboModule.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			znq66vn+sNzz4ZqOO/66RXhnglA=
+			DGZMdWLCK7M2uJ3qcJbF3XQRfLE=
 			</data>
 			<key>hash2</key>
 			<data>
-			4Q8UacVxHOpC0LT0BermqSf2zPXwRzo65TW089yR82k=
+			aMsmy9SMrfOxbNNKnuqJz7Z8SjSkKpB4kU3zBfQK6Fg=
 			</data>
 		</dict>
 		<key>Headers/RCTTurboModuleManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2mui1HhzchY+J3Ahp5FkNmfKrn0=
+			CqW6Qa9jj4VQlkXT+ZqufaaZRJE=
 			</data>
 			<key>hash2</key>
 			<data>
-			HZZQKDMKsPo7VjMoxv7fWL1YMU4tpelk0RsbOLsey/Y=
+			DvwzR5W5jmj3MnWhd4XhhJFqaagIcdgGV7yruGM+vnQ=
 			</data>
 		</dict>
 		<key>Headers/ReactCommon-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dvTcTFfP8EMOKIlhFXIGM2hKNaE=
+			rpqb8NniNpQWhwXq1qi1qKm6h+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			jgIhAqAyhYSnCgi5VCZsA5N+ry/nt1YDwkthdnb4sag=
+			TCpnEVBi3HOXZoFgqu55+EXzQfaWM/2py6/mIJ1kUdU=
 			</data>
 		</dict>
 		<key>Headers/TurboCxxModule.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			We5OpsfrzcPQmUfmx+fjZS4Mmp0=
+			GiRQbBqgwX13EGyPT7aOu1I6VEA=
 			</data>
 			<key>hash2</key>
 			<data>
-			fORxwIyOOP4WGYFF70JlLhORxSIEEfgslIiQallQ6u8=
+			aUssjAF8Xs3z8E5Tfg7BstaAwGHRQF3DA4RprNn/3/4=
 			</data>
 		</dict>
 		<key>Headers/TurboModule.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H28o2FM5JKlXmmEtrZrGENF6KN0=
+			GbiUDi05CbsCoueqKAFw6uZ0Eg8=
 			</data>
 			<key>hash2</key>
 			<data>
-			IDZiMVnLbEJO7iW751LtGTGj8PNa/Q4A7Lpk7V1jD8c=
+			2PcRARG9qtdTvTia5kacCcVUbJ+J9+mb6gO3dY/GuCY=
 			</data>
 		</dict>
 		<key>Headers/TurboModuleBinding.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GGltnDwDVUGbompjSpKLDatSnQY=
+			6qw3pKb3m8XUsKBM/P4FFCy/gNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			/o4CuQEaZv/QlPdK1vuVr5n9x+Q4H33LqfluaKWM8v0=
+			5BbmV2/siL+8fxpdxvRw/xMEfBSEsD+cp/Pn5Krzid8=
 			</data>
 		</dict>
 		<key>Headers/TurboModuleUtils.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UdS9vUv6bvEMzE5goFCvk4JTMZI=
+			AWVS0AI6fJzDTot2BcfivsthrAE=
 			</data>
 			<key>hash2</key>
 			<data>
-			fpwaE6TuAi1VKjD126hlmm0XN7tQzJIDEvE4oQgYKTs=
+			SeY4iZuc1Y5eM8c8c/pGPcs0k50dJ+GjISR8OM8tarI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

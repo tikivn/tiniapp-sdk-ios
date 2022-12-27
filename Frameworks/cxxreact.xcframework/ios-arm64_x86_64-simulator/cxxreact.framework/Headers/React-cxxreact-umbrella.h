@@ -28,7 +28,6 @@
 #import "NativeToJsBridge.h"
 #import "RAMBundleRegistry.h"
 #import "ReactMarker.h"
-#import "ReactNativeVersion.h"
 #import "RecoverableError.h"
 #import "SharedProxyCxxModule.h"
 #import "SystraceSection.h"
