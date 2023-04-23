@@ -16,8 +16,8 @@ class ViewController: UIViewController {
 
     @IBAction func openTiniAppClicked(_ sender: Any) {
         TiniAppSDK.shared.delegate = self
-        let vc = TiniAppSDK.shared.openMiniApp(appId: "com.tini.appstore", pathPath: nil, params: nil)
-        vc.appId = "com.tini.appstore"
+        let vc = TiniAppSDK.shared.openMiniApp(appId: "vn.tiki.vip", pathPath: "pages/account/index", params: nil)
+        vc.appId = "vn.tiki.vip"
         vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true)
     }
