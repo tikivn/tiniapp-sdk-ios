@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TiniAppSDK-Swift.h</key>
 		<data>
-		2n6tygT8jSq+4UYEbWBidxz7bqo=
+		MWQssZmB2sEfWehjZNRB/cWZCKY=
 		</data>
 		<key>Headers/TiniAppSDK.h</key>
 		<data>
@@ -14,27 +14,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		93aRLjhYsKa5Ld8oQEppugHmQto=
+		VYwDtGgvTfc+vnLD1pw6uuvWv7c=
+		</data>
+		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		uAeiOHUKSUdai6ENwkcVmf6IDis=
+		</data>
+		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		JuCByH15JQR/f6N7USMK8Z7HWcA=
 		</data>
 		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		W9uwopfr2xSyok6Bujazkct2pYo=
+		lIxX8+WbFaaFgzsSgsOsmJA+fZc=
 		</data>
 		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hNqBLPdV2pZI0FZUUdyM7jR6w1k=
+		JuCByH15JQR/f6N7USMK8Z7HWcA=
 		</data>
 		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GPCiwwz5YK3nSmuVAzlesZCQwoc=
+		soRCSQXAEVo+lzbhc8y52KZ7w9M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		PqsdV5jfn7JA0ZxEbd3jmoSP8Bk=
+		oQBZWBY98rnxe+6BwNY52gN1COs=
 		</data>
 		<key>QBImagePicker.bundle/Info.plist</key>
 		<data>
-		IuZGKuwKRVgdXF+s9oT/GJv+h6U=
+		CYRSuC2Y9qP2QcomvlMsUwbX8ZQ=
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/Info.plist</key>
 		<data>
@@ -42,43 +50,43 @@
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAlbumsNavigationController.nib/objects-12.3+.nib</key>
 		<data>
-		rPCbzTOji05wZ94GPr7GW2VCQ1w=
+		XGOFzK7/GFuwP7WfGO43b6AAkso=
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAlbumsNavigationController.nib/runtime.nib</key>
 		<data>
-		rPCbzTOji05wZ94GPr7GW2VCQ1w=
+		XGOFzK7/GFuwP7WfGO43b6AAkso=
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAlbumsViewController.nib/objects-12.3+.nib</key>
 		<data>
-		G926ZwIQDoI+t6EAuyIl4r6znsI=
+		l5Y4Er3ymJVkFvQInaxSjiCg01I=
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAlbumsViewController.nib/runtime.nib</key>
 		<data>
-		G926ZwIQDoI+t6EAuyIl4r6znsI=
+		l5Y4Er3ymJVkFvQInaxSjiCg01I=
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAssetsViewController.nib/objects-12.3+.nib</key>
 		<data>
-		uMbv/JBFOHUAr8iA2JrL0vSHifM=
+		i6GG+UFnItOPpAnfltCp4ym4OzM=
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAssetsViewController.nib/runtime.nib</key>
 		<data>
-		uMbv/JBFOHUAr8iA2JrL0vSHifM=
+		i6GG+UFnItOPpAnfltCp4ym4OzM=
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QL5-wR-LYt-view-66K-TS-Yoc.nib/objects-12.3+.nib</key>
 		<data>
-		zQTvJdy5Oxq2g69yU7Q4wf0AWQc=
+		Y5pPvyG+EAwZTwkTmcr8lpNX7gk=
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QL5-wR-LYt-view-66K-TS-Yoc.nib/runtime.nib</key>
 		<data>
-		zQTvJdy5Oxq2g69yU7Q4wf0AWQc=
+		Y5pPvyG+EAwZTwkTmcr8lpNX7gk=
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QiH-NZ-ZGN-view-sD2-zK-ryo.nib/objects-12.3+.nib</key>
 		<data>
-		Pt3QkNCFnWea+xNsersEF0D0apI=
+		u0H+JeRroCXaDbcaAALE3vH308U=
 		</data>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QiH-NZ-ZGN-view-sD2-zK-ryo.nib/runtime.nib</key>
 		<data>
-		EPwy4Aqno30V1RcS20cknwfgvYE=
+		pEbKEQrAyzEY1SIckMuNGxOetJM=
 		</data>
 		<key>QBImagePicker.bundle/de.lproj/QBImagePicker.strings</key>
 		<dict>
@@ -208,7 +216,7 @@
 		</dict>
 		<key>RNTiniWorker.bundle/Info.plist</key>
 		<data>
-		bw/waX7o819ONB2iOENYHGXBmbU=
+		j5VujXtLs+rzpZyfDFtnba4esaA=
 		</data>
 		<key>RNTiniWorker.bundle/app_icon_default.png</key>
 		<data>
@@ -233,7 +241,7 @@
 		</dict>
 		<key>TOCropViewControllerBundle.bundle/Info.plist</key>
 		<data>
-		nhq4BUWhi+Z3r9yc8jISUrX/zyw=
+		vLBbfiBGrc5dIWMaQ3UAiG9Kum8=
 		</data>
 		<key>TOCropViewControllerBundle.bundle/ar.lproj/TOCropViewControllerLocalizable.strings</key>
 		<dict>
@@ -525,7 +533,7 @@
 		</data>
 		<key>tiniapp-runtime.jsbundle</key>
 		<data>
-		uGp8MIvtfR5w7WYbE0YuTkHHHEg=
+		vz+1My1Rnfxm3k76DtU1Z3CG4os=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -534,7 +542,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VGIppMu4SuWRKVmBHYVRBNpd+zalS6j7cwRUsHK5gqE=
+			tEb/5isMwLiEQx2VpzHWKH9e8shEbVeqwA6wP8BRpA0=
 			</data>
 		</dict>
 		<key>Headers/TiniAppSDK.h</key>
@@ -544,39 +552,53 @@
 			uQl6rfl7I2tWrhYTAJFwASWeH9GK1eMLq+fR3xXtCdc=
 			</data>
 		</dict>
+		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UKFjQ2M36IME6MeuGazDt+joug+aYrPsqAbC+bqZJng=
+			</data>
+		</dict>
+		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zJ9LBqFPnCetj5Ke9BPy/J25F0b8RVJFq1gnNeTHKeQ=
+			</data>
+		</dict>
 		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zozfBjTWF7+uIVraCxNCHvR+1fz4qisVOHJL/mFszyA=
+			UNLKfXCZM9AION7sZ/vnOkuuu76iZXTjJBxAdub+bkk=
 			</data>
 		</dict>
 		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HjQnag2fuO4tFCUY1j9tu2FC7MdSEdwRLqGJGO/2R7Y=
+			zJ9LBqFPnCetj5Ke9BPy/J25F0b8RVJFq1gnNeTHKeQ=
 			</data>
 		</dict>
 		<key>Modules/TiniAppSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4yVSgFwIpuAMnGNK4u7dy0xrUddmFFKYINf+Wb7N+bo=
+			LPMO1D3C2Sn5XsQttEUVZi8b32T+P8WaWI5JOiOFQEQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yzM+0qBH95SsZjYkr8r9sWqu0sjSXVL07lp7RyoSzpo=
+			EPXGuYlgn+nqQp2wHIGVc+73T4WgBxp/+DSJmIv2A4c=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GFY7zcoC+hmV0OkN4WVTAlMyTbq6A40NrQhANRU+u1U=
+			igkzc94awjkL8cPhNhQtxdgYmsu2LAe2vlU9oV1t1Cw=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/Info.plist</key>
@@ -590,70 +612,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V40jZs7z26Y+LZc66jyHtK+ZgAaAwDviXJ6opgDROm4=
+			kzGhJi7qSWc948j60pAHL3QA1Ftj55Vy6SI1ojQkr4s=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAlbumsNavigationController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V40jZs7z26Y+LZc66jyHtK+ZgAaAwDviXJ6opgDROm4=
+			kzGhJi7qSWc948j60pAHL3QA1Ftj55Vy6SI1ojQkr4s=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAlbumsViewController.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oy4PLaoLykiXwECsCS7B2jv9UOBd+soVv2NSRsEFdbg=
+			Ou503zOIQVTaL8/Z5qWCwAJvbrv432gqc5WMozDdT+k=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAlbumsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oy4PLaoLykiXwECsCS7B2jv9UOBd+soVv2NSRsEFdbg=
+			Ou503zOIQVTaL8/Z5qWCwAJvbrv432gqc5WMozDdT+k=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAssetsViewController.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W06nLbgSxJKEBC/k3WWhfrK83uDLxgpgO16hI7Bc0kc=
+			9alGEgeZ3tl5acAH9ve25vpCrFtE/tkjJKkCUZkjdSs=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QBAssetsViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W06nLbgSxJKEBC/k3WWhfrK83uDLxgpgO16hI7Bc0kc=
+			9alGEgeZ3tl5acAH9ve25vpCrFtE/tkjJKkCUZkjdSs=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QL5-wR-LYt-view-66K-TS-Yoc.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jSUGUmq+TrQD+ciB+aRqhRpRrTHDACBbtblY583Gzso=
+			rp0lB8z0weLJEJs+GP2I584ZzgU7qoE+EbZ2DhgrZLw=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QL5-wR-LYt-view-66K-TS-Yoc.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jSUGUmq+TrQD+ciB+aRqhRpRrTHDACBbtblY583Gzso=
+			rp0lB8z0weLJEJs+GP2I584ZzgU7qoE+EbZ2DhgrZLw=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QiH-NZ-ZGN-view-sD2-zK-ryo.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hLg2LARphveGueiR8LIQdSCLJY03z8Tz3SC0NE5hW+A=
+			CAxuPenDxSjWPWsjT6nS+nfrqNI6QAiKluCePTlKI9c=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/QBImagePicker.storyboardc/QiH-NZ-ZGN-view-sD2-zK-ryo.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/H3x+COJ9YCb1BdOVgn8WHnHOCfU/HkL3L7KMzqE5ew=
+			kZAqrVg/qRDKegDNtzKv6dEiQp7FWYWw7iMOukaxXfQ=
 			</data>
 		</dict>
 		<key>QBImagePicker.bundle/de.lproj/QBImagePicker.strings</key>
@@ -786,7 +808,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r8F3QsIq/jDVpJmZpgEviGIc5Q9aYIVnMKC6oEUjDYE=
+			Ok1itB4MA/1jllPSi8wg8abuShQs5Kpb9bYpBVPDYho=
 			</data>
 		</dict>
 		<key>RNTiniWorker.bundle/app_icon_default.png</key>
@@ -823,7 +845,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			INRU/4AhT9BjiJc3fZnEq1rtZfgKUEZ1TxymeGgPoEs=
+			a2qf6w5oXGY+akQGreQ4u7vLE3QwaMILM8cFwHFtMgo=
 			</data>
 		</dict>
 		<key>TOCropViewControllerBundle.bundle/ar.lproj/TOCropViewControllerLocalizable.strings</key>
@@ -1145,7 +1167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sXvsPophiAHYCN9ok+MeGM0yHTDPQwI+a1BvjdyiK3g=
+			VRAIU0YBYImerUZh8n/LjJg8ZqTsl2lQ0+zQu+aIhmE=
 			</data>
 		</dict>
 	</dict>

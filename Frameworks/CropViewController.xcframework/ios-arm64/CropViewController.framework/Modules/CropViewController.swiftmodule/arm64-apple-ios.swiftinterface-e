@@ -1,16 +1,18 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CropViewController
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 @_exported import CropViewController
 import Swift
 import _Concurrency
+import _StringProcessing
 public typealias CropViewControllerAspectRatioPreset = CropViewController.TOCropViewControllerAspectRatioPreset
 public typealias CropViewControllerToolbarPosition = CropViewController.TOCropViewControllerToolbarPosition
 public typealias CropViewCroppingStyle = CropViewController.TOCropViewCroppingStyle
 @objc public protocol CropViewControllerDelegate : ObjectiveC.NSObjectProtocol {
-  @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didCropImageToRect cropRect: CoreGraphics.CGRect, angle: Swift.Int)
-  @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didCropToImage image: UIKit.UIImage, withRect cropRect: CoreGraphics.CGRect, angle: Swift.Int)
-  @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didCropToCircularImage image: UIKit.UIImage, withRect cropRect: CoreGraphics.CGRect, angle: Swift.Int)
+  @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didCropImageToRect cropRect: CoreFoundation.CGRect, angle: Swift.Int)
+  @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didCropToImage image: UIKit.UIImage, withRect cropRect: CoreFoundation.CGRect, angle: Swift.Int)
+  @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didCropToCircularImage image: UIKit.UIImage, withRect cropRect: CoreFoundation.CGRect, angle: Swift.Int)
   @objc optional func cropViewController(_ cropViewController: CropViewController.CropViewController, didFinishCancelled cancelled: Swift.Bool)
 }
 @objc @_Concurrency.MainActor(unsafe) open class CropViewController : UIKit.UIViewController, CropViewController.TOCropViewControllerDelegate {
@@ -22,14 +24,14 @@ public typealias CropViewCroppingStyle = CropViewController.TOCropViewCroppingSt
     set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var title: Swift.String? {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) public var showActivitySheetOnDone: Swift.Bool {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var imageCropFrame: CoreGraphics.CGRect {
+  @_Concurrency.MainActor(unsafe) public var imageCropFrame: CoreFoundation.CGRect {
     get
     set
   }
@@ -44,7 +46,7 @@ public typealias CropViewCroppingStyle = CropViewController.TOCropViewCroppingSt
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var customAspectRatio: CoreGraphics.CGSize {
+  @_Concurrency.MainActor(unsafe) public var customAspectRatio: CoreFoundation.CGSize {
     get
     set
   }
@@ -111,15 +113,15 @@ public typealias CropViewCroppingStyle = CropViewController.TOCropViewCroppingSt
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var onDidCropImageToRect: ((CoreGraphics.CGRect, Swift.Int) -> (Swift.Void))? {
+  @_Concurrency.MainActor(unsafe) public var onDidCropImageToRect: ((CoreFoundation.CGRect, Swift.Int) -> (Swift.Void))? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var onDidCropToRect: ((UIKit.UIImage, CoreGraphics.CGRect, ObjectiveC.NSInteger) -> (Swift.Void))? {
+  @_Concurrency.MainActor(unsafe) public var onDidCropToRect: ((UIKit.UIImage, CoreFoundation.CGRect, ObjectiveC.NSInteger) -> (Swift.Void))? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var onDidCropToCircleImage: ((UIKit.UIImage, CoreGraphics.CGRect, ObjectiveC.NSInteger) -> (Swift.Void))? {
+  @_Concurrency.MainActor(unsafe) public var onDidCropToCircleImage: ((UIKit.UIImage, CoreFoundation.CGRect, ObjectiveC.NSInteger) -> (Swift.Void))? {
     get
     set
   }
@@ -154,19 +156,19 @@ public typealias CropViewCroppingStyle = CropViewController.TOCropViewCroppingSt
     set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var childForStatusBarStyle: UIKit.UIViewController? {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var childForStatusBarHidden: UIKit.UIViewController? {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var prefersStatusBarHidden: Swift.Bool {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredScreenEdgesDeferringSystemGestures: UIKit.UIRectEdge {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) public init(image: UIKit.UIImage)
   @_Concurrency.MainActor(unsafe) public init(croppingStyle: CropViewController.CropViewCroppingStyle, image: UIKit.UIImage)
@@ -176,9 +178,9 @@ public typealias CropViewCroppingStyle = CropViewController.TOCropViewCroppingSt
   @_Concurrency.MainActor(unsafe) public func commitCurrentCrop()
   @_Concurrency.MainActor(unsafe) public func resetCropViewLayout()
   @_Concurrency.MainActor(unsafe) public func setAspectRatioPreset(_ aspectRatio: CropViewController.CropViewControllerAspectRatioPreset, animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func presentAnimatedFrom(_ viewController: UIKit.UIViewController, fromView view: UIKit.UIView?, fromFrame frame: CoreGraphics.CGRect, setup: (() -> (Swift.Void))?, completion: (() -> (Swift.Void))?)
-  @_Concurrency.MainActor(unsafe) public func presentAnimatedFrom(_ viewController: UIKit.UIViewController, fromImage image: UIKit.UIImage?, fromView: UIKit.UIView?, fromFrame: CoreGraphics.CGRect, angle: Swift.Int, toImageFrame toFrame: CoreGraphics.CGRect, setup: (() -> (Swift.Void))?, completion: (() -> (Swift.Void))?)
-  @_Concurrency.MainActor(unsafe) public func dismissAnimatedFrom(_ viewController: UIKit.UIViewController, toView: UIKit.UIView?, toFrame: CoreGraphics.CGRect, setup: (() -> (Swift.Void))?, completion: (() -> (Swift.Void))?)
-  @_Concurrency.MainActor(unsafe) public func dismissAnimatedFrom(_ viewController: UIKit.UIViewController, withCroppedImage croppedImage: UIKit.UIImage?, toView: UIKit.UIView?, toFrame: CoreGraphics.CGRect, setup: (() -> (Swift.Void))?, completion: (() -> (Swift.Void))?)
+  @_Concurrency.MainActor(unsafe) public func presentAnimatedFrom(_ viewController: UIKit.UIViewController, fromView view: UIKit.UIView?, fromFrame frame: CoreFoundation.CGRect, setup: (() -> (Swift.Void))?, completion: (() -> (Swift.Void))?)
+  @_Concurrency.MainActor(unsafe) public func presentAnimatedFrom(_ viewController: UIKit.UIViewController, fromImage image: UIKit.UIImage?, fromView: UIKit.UIView?, fromFrame: CoreFoundation.CGRect, angle: Swift.Int, toImageFrame toFrame: CoreFoundation.CGRect, setup: (() -> (Swift.Void))?, completion: (() -> (Swift.Void))?)
+  @_Concurrency.MainActor(unsafe) public func dismissAnimatedFrom(_ viewController: UIKit.UIViewController, toView: UIKit.UIView?, toFrame: CoreFoundation.CGRect, setup: (() -> (Swift.Void))?, completion: (() -> (Swift.Void))?)
+  @_Concurrency.MainActor(unsafe) public func dismissAnimatedFrom(_ viewController: UIKit.UIViewController, withCroppedImage croppedImage: UIKit.UIImage?, toView: UIKit.UIView?, toFrame: CoreFoundation.CGRect, setup: (() -> (Swift.Void))?, completion: (() -> (Swift.Void))?)
   @objc deinit
 }

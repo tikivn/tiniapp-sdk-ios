@@ -1,0 +1,4853 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "CropViewControllerDelegate",
+        "printedName": "CropViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cropViewController",
+            "printedName": "cropViewController(_:didCropImageToRect:angle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CropViewController",
+                "printedName": "CropViewController.CropViewController",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CropViewController@objc(pl)CropViewControllerDelegate(im)cropViewController:didCropImageToRect:angle:",
+            "mangledName": "$s18CropViewController0abC8DelegateP04cropbC0_03didA11ImageToRect5angleyA2AC_So6CGRectVSitF",
+            "moduleName": "CropViewController",
+            "genericSig": "<τ_0_0 where τ_0_0 : CropViewController.CropViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : CropViewController.CropViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cropViewController",
+            "printedName": "cropViewController(_:didCropToImage:withRect:angle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CropViewController",
+                "printedName": "CropViewController.CropViewController",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CropViewController@objc(pl)CropViewControllerDelegate(im)cropViewController:didCropToImage:withRect:angle:",
+            "mangledName": "$s18CropViewController0abC8DelegateP04cropbC0_03didA7ToImage8withRect5angleyA2AC_So7UIImageCSo6CGRectVSitF",
+            "moduleName": "CropViewController",
+            "genericSig": "<τ_0_0 where τ_0_0 : CropViewController.CropViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : CropViewController.CropViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cropViewController",
+            "printedName": "cropViewController(_:didCropToCircularImage:withRect:angle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CropViewController",
+                "printedName": "CropViewController.CropViewController",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CropViewController@objc(pl)CropViewControllerDelegate(im)cropViewController:didCropToCircularImage:withRect:angle:",
+            "mangledName": "$s18CropViewController0abC8DelegateP04cropbC0_03didA15ToCircularImage8withRect5angleyA2AC_So7UIImageCSo6CGRectVSitF",
+            "moduleName": "CropViewController",
+            "genericSig": "<τ_0_0 where τ_0_0 : CropViewController.CropViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : CropViewController.CropViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cropViewController",
+            "printedName": "cropViewController(_:didFinishCancelled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CropViewController",
+                "printedName": "CropViewController.CropViewController",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CropViewController@objc(pl)CropViewControllerDelegate(im)cropViewController:didFinishCancelled:",
+            "mangledName": "$s18CropViewController0abC8DelegateP04cropbC0_18didFinishCancelledyA2AC_SbtF",
+            "moduleName": "CropViewController",
+            "genericSig": "<τ_0_0 where τ_0_0 : CropViewController.CropViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : CropViewController.CropViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@CropViewController@objc(pl)CropViewControllerDelegate",
+        "mangledName": "$s18CropViewController0abC8DelegateP",
+        "moduleName": "CropViewController",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CropViewController",
+        "printedName": "CropViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC5imageSo7UIImageCvp",
+            "mangledName": "$s18CropViewControllerAAC5imageSo7UIImageCvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC5imageSo7UIImageCvg",
+                "mangledName": "$s18CropViewControllerAAC5imageSo7UIImageCvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "CropViewController.CropViewControllerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC8delegateAA0abC8Delegate_pSgvp",
+            "mangledName": "$s18CropViewControllerAAC8delegateAA0abC8Delegate_pSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CropViewController.CropViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CropViewControllerDelegate",
+                        "printedName": "CropViewController.CropViewControllerDelegate",
+                        "usr": "c:@M@CropViewController@objc(pl)CropViewControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC8delegateAA0abC8Delegate_pSgvg",
+                "mangledName": "$s18CropViewControllerAAC8delegateAA0abC8Delegate_pSgvg",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CropViewController.CropViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CropViewControllerDelegate",
+                        "printedName": "CropViewController.CropViewControllerDelegate",
+                        "usr": "c:@M@CropViewController@objc(pl)CropViewControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC8delegateAA0abC8Delegate_pSgvs",
+                "mangledName": "$s18CropViewControllerAAC8delegateAA0abC8Delegate_pSgvs",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC8delegateAA0abC8Delegate_pSgvM",
+                "mangledName": "$s18CropViewControllerAAC8delegateAA0abC8Delegate_pSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CropViewController@objc(cs)CropViewController(py)title",
+            "mangledName": "$s18CropViewControllerAAC5titleSSSgvp",
+            "moduleName": "CropViewController",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "title",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)title",
+                "mangledName": "$s18CropViewControllerAAC5titleSSSgvg",
+                "moduleName": "CropViewController",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "title",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)setTitle:",
+                "mangledName": "$s18CropViewControllerAAC5titleSSSgvs",
+                "moduleName": "CropViewController",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "setTitle:",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showActivitySheetOnDone",
+            "printedName": "showActivitySheetOnDone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC23showActivitySheetOnDoneSbvp",
+            "mangledName": "$s18CropViewControllerAAC23showActivitySheetOnDoneSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC23showActivitySheetOnDoneSbvg",
+                "mangledName": "$s18CropViewControllerAAC23showActivitySheetOnDoneSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC23showActivitySheetOnDoneSbvs",
+                "mangledName": "$s18CropViewControllerAAC23showActivitySheetOnDoneSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC23showActivitySheetOnDoneSbvM",
+                "mangledName": "$s18CropViewControllerAAC23showActivitySheetOnDoneSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageCropFrame",
+            "printedName": "imageCropFrame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC05imageA5FrameSo6CGRectVvp",
+            "mangledName": "$s18CropViewControllerAAC05imageA5FrameSo6CGRectVvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05imageA5FrameSo6CGRectVvg",
+                "mangledName": "$s18CropViewControllerAAC05imageA5FrameSo6CGRectVvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05imageA5FrameSo6CGRectVvs",
+                "mangledName": "$s18CropViewControllerAAC05imageA5FrameSo6CGRectVvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05imageA5FrameSo6CGRectVvM",
+                "mangledName": "$s18CropViewControllerAAC05imageA5FrameSo6CGRectVvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "angle",
+            "printedName": "angle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC5angleSivp",
+            "mangledName": "$s18CropViewControllerAAC5angleSivp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC5angleSivg",
+                "mangledName": "$s18CropViewControllerAAC5angleSivg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC5angleSivs",
+                "mangledName": "$s18CropViewControllerAAC5angleSivs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC5angleSivM",
+                "mangledName": "$s18CropViewControllerAAC5angleSivM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "croppingStyle",
+            "printedName": "croppingStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TOCropViewCroppingStyle",
+                "printedName": "CropViewController.TOCropViewCroppingStyle",
+                "usr": "c:@E@TOCropViewCroppingStyle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC13croppingStyleSo06TOCropb8CroppingE0Vvp",
+            "mangledName": "$s18CropViewControllerAAC13croppingStyleSo06TOCropb8CroppingE0Vvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TOCropViewCroppingStyle",
+                    "printedName": "CropViewController.TOCropViewCroppingStyle",
+                    "usr": "c:@E@TOCropViewCroppingStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC13croppingStyleSo06TOCropb8CroppingE0Vvg",
+                "mangledName": "$s18CropViewControllerAAC13croppingStyleSo06TOCropb8CroppingE0Vvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectRatioPreset",
+            "printedName": "aspectRatioPreset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TOCropViewControllerAspectRatioPreset",
+                "printedName": "CropViewController.TOCropViewControllerAspectRatioPreset",
+                "usr": "c:@E@TOCropViewControllerAspectRatioPreset"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC17aspectRatioPresetSo06TOCropbc6AspecteF0Vvp",
+            "mangledName": "$s18CropViewControllerAAC17aspectRatioPresetSo06TOCropbc6AspecteF0Vvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TOCropViewControllerAspectRatioPreset",
+                    "printedName": "CropViewController.TOCropViewControllerAspectRatioPreset",
+                    "usr": "c:@E@TOCropViewControllerAspectRatioPreset"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17aspectRatioPresetSo06TOCropbc6AspecteF0Vvg",
+                "mangledName": "$s18CropViewControllerAAC17aspectRatioPresetSo06TOCropbc6AspecteF0Vvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TOCropViewControllerAspectRatioPreset",
+                    "printedName": "CropViewController.TOCropViewControllerAspectRatioPreset",
+                    "usr": "c:@E@TOCropViewControllerAspectRatioPreset"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17aspectRatioPresetSo06TOCropbc6AspecteF0Vvs",
+                "mangledName": "$s18CropViewControllerAAC17aspectRatioPresetSo06TOCropbc6AspecteF0Vvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17aspectRatioPresetSo06TOCropbc6AspecteF0VvM",
+                "mangledName": "$s18CropViewControllerAAC17aspectRatioPresetSo06TOCropbc6AspecteF0VvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customAspectRatio",
+            "printedName": "customAspectRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC17customAspectRatioSo6CGSizeVvp",
+            "mangledName": "$s18CropViewControllerAAC17customAspectRatioSo6CGSizeVvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17customAspectRatioSo6CGSizeVvg",
+                "mangledName": "$s18CropViewControllerAAC17customAspectRatioSo6CGSizeVvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17customAspectRatioSo6CGSizeVvs",
+                "mangledName": "$s18CropViewControllerAAC17customAspectRatioSo6CGSizeVvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17customAspectRatioSo6CGSizeVvM",
+                "mangledName": "$s18CropViewControllerAAC17customAspectRatioSo6CGSizeVvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "titleLabel",
+            "printedName": "titleLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC10titleLabelSo7UILabelCSgvp",
+            "mangledName": "$s18CropViewControllerAAC10titleLabelSo7UILabelCSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC10titleLabelSo7UILabelCSgvg",
+                "mangledName": "$s18CropViewControllerAAC10titleLabelSo7UILabelCSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectRatioLockEnabled",
+            "printedName": "aspectRatioLockEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC22aspectRatioLockEnabledSbvp",
+            "mangledName": "$s18CropViewControllerAAC22aspectRatioLockEnabledSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC22aspectRatioLockEnabledSbvg",
+                "mangledName": "$s18CropViewControllerAAC22aspectRatioLockEnabledSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC22aspectRatioLockEnabledSbvs",
+                "mangledName": "$s18CropViewControllerAAC22aspectRatioLockEnabledSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC22aspectRatioLockEnabledSbvM",
+                "mangledName": "$s18CropViewControllerAAC22aspectRatioLockEnabledSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectRatioLockDimensionSwapEnabled",
+            "printedName": "aspectRatioLockDimensionSwapEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC35aspectRatioLockDimensionSwapEnabledSbvp",
+            "mangledName": "$s18CropViewControllerAAC35aspectRatioLockDimensionSwapEnabledSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC35aspectRatioLockDimensionSwapEnabledSbvg",
+                "mangledName": "$s18CropViewControllerAAC35aspectRatioLockDimensionSwapEnabledSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC35aspectRatioLockDimensionSwapEnabledSbvs",
+                "mangledName": "$s18CropViewControllerAAC35aspectRatioLockDimensionSwapEnabledSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC35aspectRatioLockDimensionSwapEnabledSbvM",
+                "mangledName": "$s18CropViewControllerAAC35aspectRatioLockDimensionSwapEnabledSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resetAspectRatioEnabled",
+            "printedName": "resetAspectRatioEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC23resetAspectRatioEnabledSbvp",
+            "mangledName": "$s18CropViewControllerAAC23resetAspectRatioEnabledSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC23resetAspectRatioEnabledSbvg",
+                "mangledName": "$s18CropViewControllerAAC23resetAspectRatioEnabledSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC23resetAspectRatioEnabledSbvs",
+                "mangledName": "$s18CropViewControllerAAC23resetAspectRatioEnabledSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC23resetAspectRatioEnabledSbvM",
+                "mangledName": "$s18CropViewControllerAAC23resetAspectRatioEnabledSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toolbarPosition",
+            "printedName": "toolbarPosition",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TOCropViewControllerToolbarPosition",
+                "printedName": "CropViewController.TOCropViewControllerToolbarPosition",
+                "usr": "c:@E@TOCropViewControllerToolbarPosition"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC15toolbarPositionSo06TOCropbc7ToolbarE0Vvp",
+            "mangledName": "$s18CropViewControllerAAC15toolbarPositionSo06TOCropbc7ToolbarE0Vvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TOCropViewControllerToolbarPosition",
+                    "printedName": "CropViewController.TOCropViewControllerToolbarPosition",
+                    "usr": "c:@E@TOCropViewControllerToolbarPosition"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC15toolbarPositionSo06TOCropbc7ToolbarE0Vvg",
+                "mangledName": "$s18CropViewControllerAAC15toolbarPositionSo06TOCropbc7ToolbarE0Vvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TOCropViewControllerToolbarPosition",
+                    "printedName": "CropViewController.TOCropViewControllerToolbarPosition",
+                    "usr": "c:@E@TOCropViewControllerToolbarPosition"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC15toolbarPositionSo06TOCropbc7ToolbarE0Vvs",
+                "mangledName": "$s18CropViewControllerAAC15toolbarPositionSo06TOCropbc7ToolbarE0Vvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC15toolbarPositionSo06TOCropbc7ToolbarE0VvM",
+                "mangledName": "$s18CropViewControllerAAC15toolbarPositionSo06TOCropbc7ToolbarE0VvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rotateClockwiseButtonHidden",
+            "printedName": "rotateClockwiseButtonHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC27rotateClockwiseButtonHiddenSbvp",
+            "mangledName": "$s18CropViewControllerAAC27rotateClockwiseButtonHiddenSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC27rotateClockwiseButtonHiddenSbvg",
+                "mangledName": "$s18CropViewControllerAAC27rotateClockwiseButtonHiddenSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC27rotateClockwiseButtonHiddenSbvs",
+                "mangledName": "$s18CropViewControllerAAC27rotateClockwiseButtonHiddenSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC27rotateClockwiseButtonHiddenSbvM",
+                "mangledName": "$s18CropViewControllerAAC27rotateClockwiseButtonHiddenSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rotateButtonsHidden",
+            "printedName": "rotateButtonsHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC19rotateButtonsHiddenSbvp",
+            "mangledName": "$s18CropViewControllerAAC19rotateButtonsHiddenSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC19rotateButtonsHiddenSbvg",
+                "mangledName": "$s18CropViewControllerAAC19rotateButtonsHiddenSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC19rotateButtonsHiddenSbvs",
+                "mangledName": "$s18CropViewControllerAAC19rotateButtonsHiddenSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC19rotateButtonsHiddenSbvM",
+                "mangledName": "$s18CropViewControllerAAC19rotateButtonsHiddenSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "resetButtonHidden",
+            "printedName": "resetButtonHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC17resetButtonHiddenSbvp",
+            "mangledName": "$s18CropViewControllerAAC17resetButtonHiddenSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17resetButtonHiddenSbvg",
+                "mangledName": "$s18CropViewControllerAAC17resetButtonHiddenSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17resetButtonHiddenSbvs",
+                "mangledName": "$s18CropViewControllerAAC17resetButtonHiddenSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17resetButtonHiddenSbvM",
+                "mangledName": "$s18CropViewControllerAAC17resetButtonHiddenSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectRatioPickerButtonHidden",
+            "printedName": "aspectRatioPickerButtonHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC29aspectRatioPickerButtonHiddenSbvp",
+            "mangledName": "$s18CropViewControllerAAC29aspectRatioPickerButtonHiddenSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC29aspectRatioPickerButtonHiddenSbvg",
+                "mangledName": "$s18CropViewControllerAAC29aspectRatioPickerButtonHiddenSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC29aspectRatioPickerButtonHiddenSbvs",
+                "mangledName": "$s18CropViewControllerAAC29aspectRatioPickerButtonHiddenSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC29aspectRatioPickerButtonHiddenSbvM",
+                "mangledName": "$s18CropViewControllerAAC29aspectRatioPickerButtonHiddenSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "doneButtonHidden",
+            "printedName": "doneButtonHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC16doneButtonHiddenSbvp",
+            "mangledName": "$s18CropViewControllerAAC16doneButtonHiddenSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC16doneButtonHiddenSbvg",
+                "mangledName": "$s18CropViewControllerAAC16doneButtonHiddenSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC16doneButtonHiddenSbvs",
+                "mangledName": "$s18CropViewControllerAAC16doneButtonHiddenSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC16doneButtonHiddenSbvM",
+                "mangledName": "$s18CropViewControllerAAC16doneButtonHiddenSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cancelButtonHidden",
+            "printedName": "cancelButtonHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC18cancelButtonHiddenSbvp",
+            "mangledName": "$s18CropViewControllerAAC18cancelButtonHiddenSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC18cancelButtonHiddenSbvg",
+                "mangledName": "$s18CropViewControllerAAC18cancelButtonHiddenSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC18cancelButtonHiddenSbvs",
+                "mangledName": "$s18CropViewControllerAAC18cancelButtonHiddenSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC18cancelButtonHiddenSbvM",
+                "mangledName": "$s18CropViewControllerAAC18cancelButtonHiddenSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activityItems",
+            "printedName": "activityItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC13activityItemsSayypGSgvp",
+            "mangledName": "$s18CropViewControllerAAC13activityItemsSayypGSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC13activityItemsSayypGSgvg",
+                "mangledName": "$s18CropViewControllerAAC13activityItemsSayypGSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC13activityItemsSayypGSgvs",
+                "mangledName": "$s18CropViewControllerAAC13activityItemsSayypGSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC13activityItemsSayypGSgvM",
+                "mangledName": "$s18CropViewControllerAAC13activityItemsSayypGSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "applicationActivities",
+            "printedName": "applicationActivities",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIActivity]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIActivity]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIActivity",
+                        "printedName": "UIKit.UIActivity",
+                        "usr": "c:objc(cs)UIActivity"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC21applicationActivitiesSaySo10UIActivityCGSgvp",
+            "mangledName": "$s18CropViewControllerAAC21applicationActivitiesSaySo10UIActivityCGSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[UIKit.UIActivity]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIActivity]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIActivity",
+                            "printedName": "UIKit.UIActivity",
+                            "usr": "c:objc(cs)UIActivity"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC21applicationActivitiesSaySo10UIActivityCGSgvg",
+                "mangledName": "$s18CropViewControllerAAC21applicationActivitiesSaySo10UIActivityCGSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[UIKit.UIActivity]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIActivity]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIActivity",
+                            "printedName": "UIKit.UIActivity",
+                            "usr": "c:objc(cs)UIActivity"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC21applicationActivitiesSaySo10UIActivityCGSgvs",
+                "mangledName": "$s18CropViewControllerAAC21applicationActivitiesSaySo10UIActivityCGSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC21applicationActivitiesSaySo10UIActivityCGSgvM",
+                "mangledName": "$s18CropViewControllerAAC21applicationActivitiesSaySo10UIActivityCGSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "excludedActivityTypes",
+            "printedName": "excludedActivityTypes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIActivity.ActivityType]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIActivity.ActivityType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ActivityType",
+                        "printedName": "UIKit.UIActivity.ActivityType",
+                        "usr": "c:@T@UIActivityType"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC21excludedActivityTypesSaySo14UIActivityTypeaGSgvp",
+            "mangledName": "$s18CropViewControllerAAC21excludedActivityTypesSaySo14UIActivityTypeaGSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[UIKit.UIActivity.ActivityType]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIActivity.ActivityType]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActivityType",
+                            "printedName": "UIKit.UIActivity.ActivityType",
+                            "usr": "c:@T@UIActivityType"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC21excludedActivityTypesSaySo14UIActivityTypeaGSgvg",
+                "mangledName": "$s18CropViewControllerAAC21excludedActivityTypesSaySo14UIActivityTypeaGSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[UIKit.UIActivity.ActivityType]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIActivity.ActivityType]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ActivityType",
+                            "printedName": "UIKit.UIActivity.ActivityType",
+                            "usr": "c:@T@UIActivityType"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC21excludedActivityTypesSaySo14UIActivityTypeaGSgvs",
+                "mangledName": "$s18CropViewControllerAAC21excludedActivityTypesSaySo14UIActivityTypeaGSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC21excludedActivityTypesSaySo14UIActivityTypeaGSgvM",
+                "mangledName": "$s18CropViewControllerAAC21excludedActivityTypesSaySo14UIActivityTypeaGSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowedAspectRatios",
+            "printedName": "allowedAspectRatios",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[CropViewController.TOCropViewControllerAspectRatioPreset]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[CropViewController.TOCropViewControllerAspectRatioPreset]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TOCropViewControllerAspectRatioPreset",
+                        "printedName": "CropViewController.TOCropViewControllerAspectRatioPreset",
+                        "usr": "c:@E@TOCropViewControllerAspectRatioPreset"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC19allowedAspectRatiosSaySo06TOCropbcE11RatioPresetVGSgvp",
+            "mangledName": "$s18CropViewControllerAAC19allowedAspectRatiosSaySo06TOCropbcE11RatioPresetVGSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[CropViewController.TOCropViewControllerAspectRatioPreset]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[CropViewController.TOCropViewControllerAspectRatioPreset]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TOCropViewControllerAspectRatioPreset",
+                            "printedName": "CropViewController.TOCropViewControllerAspectRatioPreset",
+                            "usr": "c:@E@TOCropViewControllerAspectRatioPreset"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC19allowedAspectRatiosSaySo06TOCropbcE11RatioPresetVGSgvg",
+                "mangledName": "$s18CropViewControllerAAC19allowedAspectRatiosSaySo06TOCropbcE11RatioPresetVGSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[CropViewController.TOCropViewControllerAspectRatioPreset]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[CropViewController.TOCropViewControllerAspectRatioPreset]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TOCropViewControllerAspectRatioPreset",
+                            "printedName": "CropViewController.TOCropViewControllerAspectRatioPreset",
+                            "usr": "c:@E@TOCropViewControllerAspectRatioPreset"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC19allowedAspectRatiosSaySo06TOCropbcE11RatioPresetVGSgvs",
+                "mangledName": "$s18CropViewControllerAAC19allowedAspectRatiosSaySo06TOCropbcE11RatioPresetVGSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC19allowedAspectRatiosSaySo06TOCropbcE11RatioPresetVGSgvM",
+                "mangledName": "$s18CropViewControllerAAC19allowedAspectRatiosSaySo06TOCropbcE11RatioPresetVGSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDidFinishCancelled",
+            "printedName": "onDidFinishCancelled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC20onDidFinishCancelledySbcSgvp",
+            "mangledName": "$s18CropViewControllerAAC20onDidFinishCancelledySbcSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC20onDidFinishCancelledySbcSgvg",
+                "mangledName": "$s18CropViewControllerAAC20onDidFinishCancelledySbcSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC20onDidFinishCancelledySbcSgvs",
+                "mangledName": "$s18CropViewControllerAAC20onDidFinishCancelledySbcSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC20onDidFinishCancelledySbcSgvM",
+                "mangledName": "$s18CropViewControllerAAC20onDidFinishCancelledySbcSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDidCropImageToRect",
+            "printedName": "onDidCropImageToRect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CoreFoundation.CGRect, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreFoundation.CGRect, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(CoreFoundation.CGRect, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGRect",
+                            "printedName": "CoreFoundation.CGRect",
+                            "usr": "c:@S@CGRect"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC05onDidA11ImageToRectySo6CGRectV_SitcSgvp",
+            "mangledName": "$s18CropViewControllerAAC05onDidA11ImageToRectySo6CGRectV_SitcSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((CoreFoundation.CGRect, Swift.Int) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreFoundation.CGRect, Swift.Int) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(CoreFoundation.CGRect, Swift.Int)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGRect",
+                                "printedName": "CoreFoundation.CGRect",
+                                "usr": "c:@S@CGRect"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05onDidA11ImageToRectySo6CGRectV_SitcSgvg",
+                "mangledName": "$s18CropViewControllerAAC05onDidA11ImageToRectySo6CGRectV_SitcSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((CoreFoundation.CGRect, Swift.Int) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreFoundation.CGRect, Swift.Int) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(CoreFoundation.CGRect, Swift.Int)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGRect",
+                                "printedName": "CoreFoundation.CGRect",
+                                "usr": "c:@S@CGRect"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05onDidA11ImageToRectySo6CGRectV_SitcSgvs",
+                "mangledName": "$s18CropViewControllerAAC05onDidA11ImageToRectySo6CGRectV_SitcSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05onDidA11ImageToRectySo6CGRectV_SitcSgvM",
+                "mangledName": "$s18CropViewControllerAAC05onDidA11ImageToRectySo6CGRectV_SitcSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDidCropToRect",
+            "printedName": "onDidCropToRect",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGRect",
+                            "printedName": "CoreFoundation.CGRect",
+                            "usr": "c:@S@CGRect"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC05onDidA6ToRectySo7UIImageC_So6CGRectVSitcSgvp",
+            "mangledName": "$s18CropViewControllerAAC05onDidA6ToRectySo7UIImageC_So6CGRectVSitcSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGRect",
+                                "printedName": "CoreFoundation.CGRect",
+                                "usr": "c:@S@CGRect"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05onDidA6ToRectySo7UIImageC_So6CGRectVSitcSgvg",
+                "mangledName": "$s18CropViewControllerAAC05onDidA6ToRectySo7UIImageC_So6CGRectVSitcSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGRect",
+                                "printedName": "CoreFoundation.CGRect",
+                                "usr": "c:@S@CGRect"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05onDidA6ToRectySo7UIImageC_So6CGRectVSitcSgvs",
+                "mangledName": "$s18CropViewControllerAAC05onDidA6ToRectySo7UIImageC_So6CGRectVSitcSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05onDidA6ToRectySo7UIImageC_So6CGRectVSitcSgvM",
+                "mangledName": "$s18CropViewControllerAAC05onDidA6ToRectySo7UIImageC_So6CGRectVSitcSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDidCropToCircleImage",
+            "printedName": "onDidCropToCircleImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGRect",
+                            "printedName": "CoreFoundation.CGRect",
+                            "usr": "c:@S@CGRect"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC05onDidA13ToCircleImageySo7UIImageC_So6CGRectVSitcSgvp",
+            "mangledName": "$s18CropViewControllerAAC05onDidA13ToCircleImageySo7UIImageC_So6CGRectVSitcSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGRect",
+                                "printedName": "CoreFoundation.CGRect",
+                                "usr": "c:@S@CGRect"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05onDidA13ToCircleImageySo7UIImageC_So6CGRectVSitcSgvg",
+                "mangledName": "$s18CropViewControllerAAC05onDidA13ToCircleImageySo7UIImageC_So6CGRectVSitcSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(UIKit.UIImage, CoreFoundation.CGRect, Swift.Int)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIImage",
+                                "printedName": "UIKit.UIImage",
+                                "usr": "c:objc(cs)UIImage"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CGRect",
+                                "printedName": "CoreFoundation.CGRect",
+                                "usr": "c:@S@CGRect"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05onDidA13ToCircleImageySo7UIImageC_So6CGRectVSitcSgvs",
+                "mangledName": "$s18CropViewControllerAAC05onDidA13ToCircleImageySo7UIImageC_So6CGRectVSitcSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC05onDidA13ToCircleImageySo7UIImageC_So6CGRectVSitcSgvM",
+                "mangledName": "$s18CropViewControllerAAC05onDidA13ToCircleImageySo7UIImageC_So6CGRectVSitcSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cropView",
+            "printedName": "cropView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TOCropView",
+                "printedName": "CropViewController.TOCropView",
+                "usr": "c:objc(cs)TOCropView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC04cropB0So06TOCropB0Cvp",
+            "mangledName": "$s18CropViewControllerAAC04cropB0So06TOCropB0Cvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TOCropView",
+                    "printedName": "CropViewController.TOCropView",
+                    "usr": "c:objc(cs)TOCropView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC04cropB0So06TOCropB0Cvg",
+                "mangledName": "$s18CropViewControllerAAC04cropB0So06TOCropB0Cvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toolbar",
+            "printedName": "toolbar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TOCropToolbar",
+                "printedName": "CropViewController.TOCropToolbar",
+                "usr": "c:objc(cs)TOCropToolbar"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC7toolbarSo13TOCropToolbarCvp",
+            "mangledName": "$s18CropViewControllerAAC7toolbarSo13TOCropToolbarCvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TOCropToolbar",
+                    "printedName": "CropViewController.TOCropToolbar",
+                    "usr": "c:objc(cs)TOCropToolbar"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC7toolbarSo13TOCropToolbarCvg",
+                "mangledName": "$s18CropViewControllerAAC7toolbarSo13TOCropToolbarCvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hidesNavigationBar",
+            "printedName": "hidesNavigationBar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC18hidesNavigationBarSbvp",
+            "mangledName": "$s18CropViewControllerAAC18hidesNavigationBarSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC18hidesNavigationBarSbvg",
+                "mangledName": "$s18CropViewControllerAAC18hidesNavigationBarSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC18hidesNavigationBarSbvs",
+                "mangledName": "$s18CropViewControllerAAC18hidesNavigationBarSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC18hidesNavigationBarSbvM",
+                "mangledName": "$s18CropViewControllerAAC18hidesNavigationBarSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "doneButtonTitle",
+            "printedName": "doneButtonTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC15doneButtonTitleSSSgvp",
+            "mangledName": "$s18CropViewControllerAAC15doneButtonTitleSSSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC15doneButtonTitleSSSgvg",
+                "mangledName": "$s18CropViewControllerAAC15doneButtonTitleSSSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC15doneButtonTitleSSSgvs",
+                "mangledName": "$s18CropViewControllerAAC15doneButtonTitleSSSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC15doneButtonTitleSSSgvM",
+                "mangledName": "$s18CropViewControllerAAC15doneButtonTitleSSSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cancelButtonTitle",
+            "printedName": "cancelButtonTitle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC17cancelButtonTitleSSSgvp",
+            "mangledName": "$s18CropViewControllerAAC17cancelButtonTitleSSSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17cancelButtonTitleSSSgvg",
+                "mangledName": "$s18CropViewControllerAAC17cancelButtonTitleSSSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17cancelButtonTitleSSSgvs",
+                "mangledName": "$s18CropViewControllerAAC17cancelButtonTitleSSSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17cancelButtonTitleSSSgvM",
+                "mangledName": "$s18CropViewControllerAAC17cancelButtonTitleSSSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showOnlyIcons",
+            "printedName": "showOnlyIcons",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC13showOnlyIconsSbvp",
+            "mangledName": "$s18CropViewControllerAAC13showOnlyIconsSbvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC13showOnlyIconsSbvg",
+                "mangledName": "$s18CropViewControllerAAC13showOnlyIconsSbvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC13showOnlyIconsSbvs",
+                "mangledName": "$s18CropViewControllerAAC13showOnlyIconsSbvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC13showOnlyIconsSbvM",
+                "mangledName": "$s18CropViewControllerAAC13showOnlyIconsSbvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "doneButtonColor",
+            "printedName": "doneButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC15doneButtonColorSo7UIColorCSgvp",
+            "mangledName": "$s18CropViewControllerAAC15doneButtonColorSo7UIColorCSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC15doneButtonColorSo7UIColorCSgvg",
+                "mangledName": "$s18CropViewControllerAAC15doneButtonColorSo7UIColorCSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC15doneButtonColorSo7UIColorCSgvs",
+                "mangledName": "$s18CropViewControllerAAC15doneButtonColorSo7UIColorCSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC15doneButtonColorSo7UIColorCSgvM",
+                "mangledName": "$s18CropViewControllerAAC15doneButtonColorSo7UIColorCSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cancelButtonColor",
+            "printedName": "cancelButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18CropViewControllerAAC17cancelButtonColorSo7UIColorCSgvp",
+            "mangledName": "$s18CropViewControllerAAC17cancelButtonColorSo7UIColorCSgvp",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17cancelButtonColorSo7UIColorCSgvg",
+                "mangledName": "$s18CropViewControllerAAC17cancelButtonColorSo7UIColorCSgvg",
+                "moduleName": "CropViewController",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17cancelButtonColorSo7UIColorCSgvs",
+                "mangledName": "$s18CropViewControllerAAC17cancelButtonColorSo7UIColorCSgvs",
+                "moduleName": "CropViewController",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18CropViewControllerAAC17cancelButtonColorSo7UIColorCSgvM",
+                "mangledName": "$s18CropViewControllerAAC17cancelButtonColorSo7UIColorCSgvM",
+                "moduleName": "CropViewController",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "childForStatusBarStyle",
+            "printedName": "childForStatusBarStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CropViewController@objc(cs)CropViewController(py)childViewControllerForStatusBarStyle",
+            "mangledName": "$s18CropViewControllerAAC22childForStatusBarStyleSo06UIViewC0CSgvp",
+            "moduleName": "CropViewController",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "childViewControllerForStatusBarStyle",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)childViewControllerForStatusBarStyle",
+                "mangledName": "$s18CropViewControllerAAC22childForStatusBarStyleSo06UIViewC0CSgvg",
+                "moduleName": "CropViewController",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "childViewControllerForStatusBarStyle",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "childForStatusBarHidden",
+            "printedName": "childForStatusBarHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CropViewController@objc(cs)CropViewController(py)childViewControllerForStatusBarHidden",
+            "mangledName": "$s18CropViewControllerAAC23childForStatusBarHiddenSo06UIViewC0CSgvp",
+            "moduleName": "CropViewController",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "childViewControllerForStatusBarHidden",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)childViewControllerForStatusBarHidden",
+                "mangledName": "$s18CropViewControllerAAC23childForStatusBarHiddenSo06UIViewC0CSgvg",
+                "moduleName": "CropViewController",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "childViewControllerForStatusBarHidden",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prefersStatusBarHidden",
+            "printedName": "prefersStatusBarHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CropViewController@objc(cs)CropViewController(py)prefersStatusBarHidden",
+            "mangledName": "$s18CropViewControllerAAC22prefersStatusBarHiddenSbvp",
+            "moduleName": "CropViewController",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "prefersStatusBarHidden",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)prefersStatusBarHidden",
+                "mangledName": "$s18CropViewControllerAAC22prefersStatusBarHiddenSbvg",
+                "moduleName": "CropViewController",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "prefersStatusBarHidden",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredStatusBarStyle",
+            "printedName": "preferredStatusBarStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStatusBarStyle",
+                "printedName": "UIKit.UIStatusBarStyle",
+                "usr": "c:@E@UIStatusBarStyle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CropViewController@objc(cs)CropViewController(py)preferredStatusBarStyle",
+            "mangledName": "$s18CropViewControllerAAC23preferredStatusBarStyleSo08UIStatusfG0Vvp",
+            "moduleName": "CropViewController",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "preferredStatusBarStyle",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStatusBarStyle",
+                    "printedName": "UIKit.UIStatusBarStyle",
+                    "usr": "c:@E@UIStatusBarStyle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)preferredStatusBarStyle",
+                "mangledName": "$s18CropViewControllerAAC23preferredStatusBarStyleSo08UIStatusfG0Vvg",
+                "moduleName": "CropViewController",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "preferredStatusBarStyle",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredScreenEdgesDeferringSystemGestures",
+            "printedName": "preferredScreenEdgesDeferringSystemGestures",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIRectEdge",
+                "printedName": "UIKit.UIRectEdge",
+                "usr": "c:@E@UIRectEdge"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CropViewController@objc(cs)CropViewController(py)preferredScreenEdgesDeferringSystemGestures",
+            "mangledName": "$s18CropViewControllerAAC43preferredScreenEdgesDeferringSystemGesturesSo10UIRectEdgeVvp",
+            "moduleName": "CropViewController",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "preferredScreenEdgesDeferringSystemGestures",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIRectEdge",
+                    "printedName": "UIKit.UIRectEdge",
+                    "usr": "c:@E@UIRectEdge"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)preferredScreenEdgesDeferringSystemGestures",
+                "mangledName": "$s18CropViewControllerAAC43preferredScreenEdgesDeferringSystemGesturesSo10UIRectEdgeVvg",
+                "moduleName": "CropViewController",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "preferredScreenEdgesDeferringSystemGestures",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CropViewController",
+                "printedName": "CropViewController.CropViewController",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18CropViewControllerAAC5imageABSo7UIImageC_tcfc",
+            "mangledName": "$s18CropViewControllerAAC5imageABSo7UIImageC_tcfc",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(croppingStyle:image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CropViewController",
+                "printedName": "CropViewController.CropViewController",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TOCropViewCroppingStyle",
+                "printedName": "CropViewController.TOCropViewCroppingStyle",
+                "usr": "c:@E@TOCropViewCroppingStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18CropViewControllerAAC13croppingStyle5imageABSo06TOCropb8CroppingE0V_So7UIImageCtcfc",
+            "mangledName": "$s18CropViewControllerAAC13croppingStyle5imageABSo06TOCropb8CroppingE0V_So7UIImageCtcfc",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CropViewController.CropViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CropViewController",
+                    "printedName": "CropViewController.CropViewController",
+                    "usr": "c:@M@CropViewController@objc(cs)CropViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)initWithCoder:",
+            "mangledName": "$s18CropViewControllerAAC5coderABSgSo7NSCoderC_tcfc",
+            "moduleName": "CropViewController",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)viewWillAppear:",
+            "mangledName": "$s18CropViewControllerAAC14viewWillAppearyySbF",
+            "moduleName": "CropViewController",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s18CropViewControllerAAC21viewDidLayoutSubviewsyyF",
+            "moduleName": "CropViewController",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "commitCurrentCrop",
+            "printedName": "commitCurrentCrop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18CropViewControllerAAC013commitCurrentA0yyF",
+            "mangledName": "$s18CropViewControllerAAC013commitCurrentA0yyF",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetCropViewLayout",
+            "printedName": "resetCropViewLayout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18CropViewControllerAAC05resetaB6LayoutyyF",
+            "mangledName": "$s18CropViewControllerAAC05resetaB6LayoutyyF",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAspectRatioPreset",
+            "printedName": "setAspectRatioPreset(_:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TOCropViewControllerAspectRatioPreset",
+                "printedName": "CropViewController.TOCropViewControllerAspectRatioPreset",
+                "usr": "c:@E@TOCropViewControllerAspectRatioPreset"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18CropViewControllerAAC20setAspectRatioPreset_8animatedySo06TOCropbcefG0V_SbtF",
+            "mangledName": "$s18CropViewControllerAAC20setAspectRatioPreset_8animatedySo06TOCropbcefG0V_SbtF",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentAnimatedFrom",
+            "printedName": "presentAnimatedFrom(_:fromView:fromFrame:setup:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18CropViewControllerAAC19presentAnimatedFrom_04fromB00G5Frame5setup10completionySo06UIViewC0C_So0K0CSgSo6CGRectVyycSgAOtF",
+            "mangledName": "$s18CropViewControllerAAC19presentAnimatedFrom_04fromB00G5Frame5setup10completionySo06UIViewC0C_So0K0CSgSo6CGRectVyycSgAOtF",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentAnimatedFrom",
+            "printedName": "presentAnimatedFrom(_:fromImage:fromView:fromFrame:angle:toImageFrame:setup:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18CropViewControllerAAC19presentAnimatedFrom_9fromImage0gB00G5Frame5angle02tohI05setup10completionySo06UIViewC0C_So7UIImageCSgSo0N0CSgSo6CGRectVSiATyycSgAUtF",
+            "mangledName": "$s18CropViewControllerAAC19presentAnimatedFrom_9fromImage0gB00G5Frame5angle02tohI05setup10completionySo06UIViewC0C_So7UIImageCSgSo0N0CSgSo6CGRectVSiATyycSgAUtF",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAnimatedFrom",
+            "printedName": "dismissAnimatedFrom(_:toView:toFrame:setup:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18CropViewControllerAAC19dismissAnimatedFrom_02toB00G5Frame5setup10completionySo06UIViewC0C_So0K0CSgSo6CGRectVyycSgAOtF",
+            "mangledName": "$s18CropViewControllerAAC19dismissAnimatedFrom_02toB00G5Frame5setup10completionySo06UIViewC0C_So0K0CSgSo6CGRectVyycSgAOtF",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissAnimatedFrom",
+            "printedName": "dismissAnimatedFrom(_:withCroppedImage:toView:toFrame:setup:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18CropViewControllerAAC19dismissAnimatedFrom_16withCroppedImage02toB00J5Frame5setup10completionySo06UIViewC0C_So7UIImageCSgSo0N0CSgSo6CGRectVyycSgAStF",
+            "mangledName": "$s18CropViewControllerAAC19dismissAnimatedFrom_16withCroppedImage02toB00J5Frame5setup10completionySo06UIViewC0C_So7UIImageCSgSo0N0CSgSo6CGRectVyycSgAStF",
+            "moduleName": "CropViewController",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CropViewController",
+                "printedName": "CropViewController.CropViewController",
+                "usr": "c:@M@CropViewController@objc(cs)CropViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CropViewController@objc(cs)CropViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s18CropViewControllerAAC7nibName6bundleABSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "CropViewController",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CropViewController@objc(cs)CropViewController",
+        "mangledName": "$s18CropViewControllerAAC",
+        "moduleName": "CropViewController",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/Pods\/CropViewController\/Swift\/CropViewController\/CropViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4257,
+      "length": 18,
+      "value": "\"CropViewController.CropViewController\""
+    }
+  ]
+}

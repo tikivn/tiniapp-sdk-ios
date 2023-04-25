@@ -1,0 +1,3685 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TiniUser",
+        "printedName": "TiniUser",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(py)id",
+            "mangledName": "$s10TiniAppSDK0A4UserC2idSSvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(im)id",
+                "mangledName": "$s10TiniAppSDK0A4UserC2idSSvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(im)setId:",
+                "mangledName": "$s10TiniAppSDK0A4UserC2idSSvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0A4UserC2idSSvM",
+                "mangledName": "$s10TiniAppSDK0A4UserC2idSSvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(py)name",
+            "mangledName": "$s10TiniAppSDK0A4UserC4nameSSvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(im)name",
+                "mangledName": "$s10TiniAppSDK0A4UserC4nameSSvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(im)setName:",
+                "mangledName": "$s10TiniAppSDK0A4UserC4nameSSvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0A4UserC4nameSSvM",
+                "mangledName": "$s10TiniAppSDK0A4UserC4nameSSvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(py)email",
+            "mangledName": "$s10TiniAppSDK0A4UserC5emailSSSgvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(im)email",
+                "mangledName": "$s10TiniAppSDK0A4UserC5emailSSSgvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(im)setEmail:",
+                "mangledName": "$s10TiniAppSDK0A4UserC5emailSSSgvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0A4UserC5emailSSSgvM",
+                "mangledName": "$s10TiniAppSDK0A4UserC5emailSSSgvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phoneNumber",
+            "printedName": "phoneNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(py)phoneNumber",
+            "mangledName": "$s10TiniAppSDK0A4UserC11phoneNumberSSSgvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(im)phoneNumber",
+                "mangledName": "$s10TiniAppSDK0A4UserC11phoneNumberSSSgvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(im)setPhoneNumber:",
+                "mangledName": "$s10TiniAppSDK0A4UserC11phoneNumberSSSgvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0A4UserC11phoneNumberSSSgvM",
+                "mangledName": "$s10TiniAppSDK0A4UserC11phoneNumberSSSgvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:name:email:phoneNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniUser",
+                "printedName": "TiniAppSDK.TiniUser",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(im)initWithId:name:email:phoneNumber:",
+            "mangledName": "$s10TiniAppSDK0A4UserC2id4name5email11phoneNumberACSS_S2SSgAHtcfc",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniUser",
+                "printedName": "TiniAppSDK.TiniUser",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser(im)init",
+            "mangledName": "$s10TiniAppSDK0A4UserCACycfc",
+            "moduleName": "TiniAppSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniUser",
+                "printedName": "TiniAppSDK.TiniUser",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TiniAppSDK0A4UserC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10TiniAppSDK0A4UserC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TiniAppSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10TiniAppSDK0A4UserC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10TiniAppSDK0A4UserC6encode2toys7Encoder_p_tKF",
+            "moduleName": "TiniAppSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser",
+        "mangledName": "$s10TiniAppSDK0A4UserC",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TiniAppSDK",
+        "printedName": "TiniAppSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniAppSDK",
+                "printedName": "TiniAppSDK.TiniAppSDK",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(cpy)sharedInstance",
+            "mangledName": "$s10TiniAppSDKAAC6sharedABvpZ",
+            "moduleName": "TiniAppSDK",
+            "static": true,
+            "objc_name": "sharedInstance",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TiniAppSDK",
+                    "printedName": "TiniAppSDK.TiniAppSDK",
+                    "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(cm)sharedInstance",
+                "mangledName": "$s10TiniAppSDKAAC6sharedABvgZ",
+                "moduleName": "TiniAppSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "configuration",
+            "printedName": "configuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "TiniAppSDK.TiniAppConfiguration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TiniAppConfiguration",
+                    "printedName": "TiniAppSDK.TiniAppConfiguration",
+                    "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(py)configuration",
+            "mangledName": "$s10TiniAppSDKAAC13configurationAA0aB13ConfigurationCSgvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "TiniAppSDK.TiniAppConfiguration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TiniAppConfiguration",
+                        "printedName": "TiniAppSDK.TiniAppConfiguration",
+                        "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(im)configuration",
+                "mangledName": "$s10TiniAppSDKAAC13configurationAA0aB13ConfigurationCSgvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "TiniAppSDK.TiniAppSDKDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(py)delegate",
+            "mangledName": "$s10TiniAppSDKAAC8delegateAA0aB11SDKDelegate_pSgvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TiniAppSDK.TiniAppSDKDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TiniAppSDKDelegate",
+                        "printedName": "TiniAppSDK.TiniAppSDKDelegate",
+                        "usr": "c:@M@TiniAppSDK@objc(pl)TiniAppSDKDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(im)delegate",
+                "mangledName": "$s10TiniAppSDKAAC8delegateAA0aB11SDKDelegate_pSgvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TiniAppSDK.TiniAppSDKDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TiniAppSDKDelegate",
+                        "printedName": "TiniAppSDK.TiniAppSDKDelegate",
+                        "usr": "c:@M@TiniAppSDK@objc(pl)TiniAppSDKDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(im)setDelegate:",
+                "mangledName": "$s10TiniAppSDKAAC8delegateAA0aB11SDKDelegate_pSgvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDKAAC8delegateAA0aB11SDKDelegate_pSgvM",
+                "mangledName": "$s10TiniAppSDKAAC8delegateAA0aB11SDKDelegate_pSgvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "config",
+            "printedName": "config(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TiniAppConfiguration",
+                "printedName": "TiniAppSDK.TiniAppConfiguration",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(cm)configWith:",
+            "mangledName": "$s10TiniAppSDKAAC6config4withyAA0aB13ConfigurationC_tFZ",
+            "moduleName": "TiniAppSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeEnv",
+            "printedName": "changeEnv(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TiniEnv",
+                "printedName": "TiniAppSDK.TiniEnv",
+                "usr": "c:@M@TiniAppSDK@E@TiniEnv"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(im)changeEnv:",
+            "mangledName": "$s10TiniAppSDKAAC9changeEnvyyAA0aE0OF",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openMiniApp",
+            "printedName": "openMiniApp(appId:pathPath:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniAppViewController",
+                "printedName": "TiniAppSDK.TiniAppViewController",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(im)openMiniAppWithAppId:pathPath:params:",
+            "mangledName": "$s10TiniAppSDKAAC08openMiniB05appId8pathPath6paramsAA0aB14ViewControllerCSS_SSSgSDySSypGSgtF",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniAppSDK",
+                "printedName": "TiniAppSDK.TiniAppSDK",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK(im)init",
+            "mangledName": "$s10TiniAppSDKAACABycfc",
+            "moduleName": "TiniAppSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppSDK",
+        "mangledName": "$s10TiniAppSDKAAC",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TiniAppSDKDelegate",
+        "printedName": "TiniAppSDKDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "closeApp",
+            "printedName": "closeApp(completedHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(pl)TiniAppSDKDelegate(im)closeAppWithCompletedHandler:",
+            "mangledName": "$s10TiniAppSDK0aB11SDKDelegateP05closeB016completedHandleryyyXE_tF",
+            "moduleName": "TiniAppSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : TiniAppSDK.TiniAppSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : TiniAppSDK.TiniAppSDKDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserInfo",
+            "printedName": "getUserInfo(completedHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TiniAppSDK.TiniUser?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(TiniAppSDK.TiniUser?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "TiniAppSDK.TiniUser?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TiniUser",
+                            "printedName": "TiniAppSDK.TiniUser",
+                            "usr": "c:@M@TiniAppSDK@objc(cs)TiniUser"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(pl)TiniAppSDKDelegate(im)getUserInfoWithCompletedHandler:",
+            "mangledName": "$s10TiniAppSDK0aB11SDKDelegateP11getUserInfo16completedHandleryyAA0aF0CSg_s5Error_pSgtXE_tF",
+            "moduleName": "TiniAppSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : TiniAppSDK.TiniAppSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : TiniAppSDK.TiniAppSDKDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openPayment",
+            "printedName": "openPayment(transactionId:amount:completedHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Any]?, Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([Swift.String : Any]?, Swift.Error?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(pl)TiniAppSDKDelegate(im)openPaymentWithTransactionId:amount:completedHandler:",
+            "mangledName": "$s10TiniAppSDK0aB11SDKDelegateP11openPayment13transactionId6amount16completedHandlerySS_SdySDySSypGSg_s5Error_pSgtctF",
+            "moduleName": "TiniAppSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : TiniAppSDK.TiniAppSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : TiniAppSDK.TiniAppSDKDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@TiniAppSDK@objc(pl)TiniAppSDKDelegate",
+        "mangledName": "$s10TiniAppSDK0aB11SDKDelegateP",
+        "moduleName": "TiniAppSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TiniEnv",
+        "printedName": "TiniEnv",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "uat",
+            "printedName": "uat",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TiniAppSDK.TiniEnv.Type) -> TiniAppSDK.TiniEnv",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TiniEnv",
+                    "printedName": "TiniAppSDK.TiniEnv",
+                    "usr": "c:@M@TiniAppSDK@E@TiniEnv"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TiniAppSDK.TiniEnv.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TiniEnv",
+                        "printedName": "TiniAppSDK.TiniEnv",
+                        "usr": "c:@M@TiniAppSDK@E@TiniEnv"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TiniAppSDK@E@TiniEnv@TiniEnvUat",
+            "mangledName": "$s10TiniAppSDK0A3EnvO3uatyA2CmF",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "prod",
+            "printedName": "prod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TiniAppSDK.TiniEnv.Type) -> TiniAppSDK.TiniEnv",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TiniEnv",
+                    "printedName": "TiniAppSDK.TiniEnv",
+                    "usr": "c:@M@TiniAppSDK@E@TiniEnv"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TiniAppSDK.TiniEnv.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TiniEnv",
+                        "printedName": "TiniAppSDK.TiniEnv",
+                        "usr": "c:@M@TiniAppSDK@E@TiniEnv"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TiniAppSDK@E@TiniEnv@TiniEnvProd",
+            "mangledName": "$s10TiniAppSDK0A3EnvO4prodyA2CmF",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TiniAppSDK.TiniEnv?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TiniEnv",
+                    "printedName": "TiniAppSDK.TiniEnv",
+                    "usr": "c:@M@TiniAppSDK@E@TiniEnv"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10TiniAppSDK0A3EnvO8rawValueACSgSi_tcfc",
+            "mangledName": "$s10TiniAppSDK0A3EnvO8rawValueACSgSi_tcfc",
+            "moduleName": "TiniAppSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TiniAppSDK0A3EnvO8rawValueSivp",
+            "mangledName": "$s10TiniAppSDK0A3EnvO8rawValueSivp",
+            "moduleName": "TiniAppSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0A3EnvO8rawValueSivg",
+                "mangledName": "$s10TiniAppSDK0A3EnvO8rawValueSivg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@TiniAppSDK@E@TiniEnv",
+        "mangledName": "$s10TiniAppSDK0A3EnvO",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TiniAppConfiguration",
+        "printedName": "TiniAppConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "partnerCode",
+            "printedName": "partnerCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(py)partnerCode",
+            "mangledName": "$s10TiniAppSDK0aB13ConfigurationC11partnerCodeSSSgvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(im)partnerCode",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC11partnerCodeSSSgvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(im)setPartnerCode:",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC11partnerCodeSSSgvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB13ConfigurationC11partnerCodeSSSgvM",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC11partnerCodeSSSgvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(py)clientId",
+            "mangledName": "$s10TiniAppSDK0aB13ConfigurationC8clientIdSSSgvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(im)clientId",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC8clientIdSSSgvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(im)setClientId:",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC8clientIdSSSgvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB13ConfigurationC8clientIdSSSgvM",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC8clientIdSSSgvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugMode",
+            "printedName": "debugMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(py)debugMode",
+            "mangledName": "$s10TiniAppSDK0aB13ConfigurationC9debugModeSbvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(im)debugMode",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC9debugModeSbvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(im)setDebugMode:",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC9debugModeSbvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB13ConfigurationC9debugModeSbvM",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC9debugModeSbvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "env",
+            "printedName": "env",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniEnv",
+                "printedName": "TiniAppSDK.TiniEnv",
+                "usr": "c:@M@TiniAppSDK@E@TiniEnv"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(py)env",
+            "mangledName": "$s10TiniAppSDK0aB13ConfigurationC3envAA0A3EnvOvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TiniEnv",
+                    "printedName": "TiniAppSDK.TiniEnv",
+                    "usr": "c:@M@TiniAppSDK@E@TiniEnv"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(im)env",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC3envAA0A3EnvOvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TiniEnv",
+                    "printedName": "TiniAppSDK.TiniEnv",
+                    "usr": "c:@M@TiniAppSDK@E@TiniEnv"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(im)setEnv:",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC3envAA0A3EnvOvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB13ConfigurationC3envAA0A3EnvOvM",
+                "mangledName": "$s10TiniAppSDK0aB13ConfigurationC3envAA0A3EnvOvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniAppConfiguration",
+                "printedName": "TiniAppSDK.TiniAppConfiguration",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration(im)init",
+            "mangledName": "$s10TiniAppSDK0aB13ConfigurationCACycfc",
+            "moduleName": "TiniAppSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppConfiguration",
+        "mangledName": "$s10TiniAppSDK0aB13ConfigurationC",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TiniAppApplicationDelegate",
+        "printedName": "TiniAppApplicationDelegate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniAppApplicationDelegate",
+                "printedName": "TiniAppSDK.TiniAppApplicationDelegate",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniApplicationDelegate"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniApplicationDelegate(cpy)sharedInstance",
+            "mangledName": "$s10TiniAppSDK0aB19ApplicationDelegateC6sharedACvpZ",
+            "moduleName": "TiniAppSDK",
+            "static": true,
+            "objc_name": "sharedInstance",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TiniAppApplicationDelegate",
+                    "printedName": "TiniAppSDK.TiniAppApplicationDelegate",
+                    "usr": "c:@M@TiniAppSDK@objc(cs)TiniApplicationDelegate"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniApplicationDelegate(cm)sharedInstance",
+                "mangledName": "$s10TiniAppSDK0aB19ApplicationDelegateC6sharedACvgZ",
+                "moduleName": "TiniAppSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:continue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSUserActivity",
+                "printedName": "Foundation.NSUserActivity",
+                "usr": "c:objc(cs)NSUserActivity"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniApplicationDelegate(im)application:continueUserActivity:",
+            "mangledName": "$s10TiniAppSDK0aB19ApplicationDelegateC11application_8continueSbSo13UIApplicationC_So14NSUserActivityCtF",
+            "moduleName": "TiniAppSDK",
+            "objc_name": "application:continueUserActivity:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:open:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIApplication.OpenURLOptionsKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpenURLOptionsKey",
+                    "printedName": "UIKit.UIApplication.OpenURLOptionsKey",
+                    "usr": "c:@T@UIApplicationOpenURLOptionsKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniApplicationDelegate(im)application:openURL:options:",
+            "mangledName": "$s10TiniAppSDK0aB19ApplicationDelegateC11application_4open7optionsSbSo13UIApplicationC_10Foundation3URLVSDySo0I17OpenURLOptionsKeyaypGtF",
+            "moduleName": "TiniAppSDK",
+            "objc_name": "application:openURL:options:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:open:sourceApplication:annotation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniApplicationDelegate(im)application:openURL:sourceApplication:annotation:",
+            "mangledName": "$s10TiniAppSDK0aB19ApplicationDelegateC11application_4open06sourceD010annotationSbSo13UIApplicationC_10Foundation3URLVSSSgypSgtF",
+            "moduleName": "TiniAppSDK",
+            "objc_name": "application:openURL:sourceApplication:annotation:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniAppApplicationDelegate",
+                "printedName": "TiniAppSDK.TiniAppApplicationDelegate",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniApplicationDelegate"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniApplicationDelegate(im)init",
+            "mangledName": "$s10TiniAppSDK0aB19ApplicationDelegateCACycfc",
+            "moduleName": "TiniAppSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TiniAppSDK@objc(cs)TiniApplicationDelegate",
+        "mangledName": "$s10TiniAppSDK0aB19ApplicationDelegateC",
+        "moduleName": "TiniAppSDK",
+        "objc_name": "TiniApplicationDelegate",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "ObjCMembers"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "RNTiniWorker",
+        "printedName": "RNTiniWorker",
+        "declKind": "Import",
+        "moduleName": "TiniAppSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TiniAppViewController",
+        "printedName": "TiniAppViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appId",
+            "printedName": "appId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TiniAppSDK0aB14ViewControllerC5appIdSSSgvp",
+            "mangledName": "$s10TiniAppSDK0aB14ViewControllerC5appIdSSSgvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB14ViewControllerC5appIdSSSgvg",
+                "mangledName": "$s10TiniAppSDK0aB14ViewControllerC5appIdSSSgvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB14ViewControllerC5appIdSSSgvs",
+                "mangledName": "$s10TiniAppSDK0aB14ViewControllerC5appIdSSSgvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB14ViewControllerC5appIdSSSgvM",
+                "mangledName": "$s10TiniAppSDK0aB14ViewControllerC5appIdSSSgvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pagePath",
+            "printedName": "pagePath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TiniAppSDK0aB14ViewControllerC8pagePathSSSgvp",
+            "mangledName": "$s10TiniAppSDK0aB14ViewControllerC8pagePathSSSgvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB14ViewControllerC8pagePathSSSgvg",
+                "mangledName": "$s10TiniAppSDK0aB14ViewControllerC8pagePathSSSgvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB14ViewControllerC8pagePathSSSgvs",
+                "mangledName": "$s10TiniAppSDK0aB14ViewControllerC8pagePathSSSgvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB14ViewControllerC8pagePathSSSgvM",
+                "mangledName": "$s10TiniAppSDK0aB14ViewControllerC8pagePathSSSgvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "params",
+            "printedName": "params",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10TiniAppSDK0aB14ViewControllerC6paramsSDySSypGSgvp",
+            "mangledName": "$s10TiniAppSDK0aB14ViewControllerC6paramsSDySSypGSgvp",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB14ViewControllerC6paramsSDySSypGSgvg",
+                "mangledName": "$s10TiniAppSDK0aB14ViewControllerC6paramsSDySSypGSgvg",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB14ViewControllerC6paramsSDySSypGSgvs",
+                "mangledName": "$s10TiniAppSDK0aB14ViewControllerC6paramsSDySSypGSgvs",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10TiniAppSDK0aB14ViewControllerC6paramsSDySSypGSgvM",
+                "mangledName": "$s10TiniAppSDK0aB14ViewControllerC6paramsSDySSypGSgvM",
+                "moduleName": "TiniAppSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppViewController(im)viewDidLoad",
+            "mangledName": "$s10TiniAppSDK0aB14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "TiniAppSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadView",
+            "printedName": "loadView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppViewController(im)loadView",
+            "mangledName": "$s10TiniAppSDK0aB14ViewControllerC04loadD0yyF",
+            "moduleName": "TiniAppSDK",
+            "overriding": true,
+            "objc_name": "loadView",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TiniAppViewController",
+                "printedName": "TiniAppSDK.TiniAppViewController",
+                "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s10TiniAppSDK0aB14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "TiniAppSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TiniAppSDK.TiniAppViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TiniAppViewController",
+                    "printedName": "TiniAppSDK.TiniAppViewController",
+                    "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppViewController(im)initWithCoder:",
+            "mangledName": "$s10TiniAppSDK0aB14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TiniAppSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TiniAppSDK@objc(cs)TiniAppViewController",
+        "mangledName": "$s10TiniAppSDK0aB14ViewControllerC",
+        "moduleName": "TiniAppSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RCTBridge",
+        "printedName": "RCTBridge",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(moduleProvider:launchOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "React.RCTBridge?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RCTBridge",
+                    "printedName": "React.RCTBridge",
+                    "usr": "c:objc(cs)RCTBridge"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> [React.RCTBridgeModule]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[React.RCTBridgeModule]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[React.RCTBridgeModule]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RCTBridgeModule",
+                            "printedName": "React.RCTBridgeModule",
+                            "usr": "c:objc(pl)RCTBridgeModule"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So9RCTBridgeC10TiniAppSDKE14moduleProvider13launchOptionsABSgSaySo0A6Module_pGSgyc_SDys11AnyHashableVypGtcfc",
+            "mangledName": "$sSo9RCTBridgeC10TiniAppSDKE14moduleProvider13launchOptionsABSgSaySo0A6Module_pGSgyc_SDys11AnyHashableVypGtcfc",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)RCTBridge",
+        "moduleName": "React",
+        "isOpen": true,
+        "objc_name": "RCTBridge",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RCTRootView",
+        "printedName": "RCTRootView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(props:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "React.RCTRootView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RCTRootView",
+                    "printedName": "React.RCTRootView",
+                    "usr": "c:objc(cs)RCTRootView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So11RCTRootViewC10TiniAppSDKE5propsABSgSDySSypG_tcfc",
+            "mangledName": "$sSo11RCTRootViewC10TiniAppSDKE5propsABSgSDySSypG_tcfc",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "Custom",
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bridge:props:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "React.RCTRootView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RCTRootView",
+                    "printedName": "React.RCTRootView",
+                    "usr": "c:objc(cs)RCTRootView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RCTBridge",
+                "printedName": "React.RCTBridge",
+                "usr": "c:objc(cs)RCTBridge"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So11RCTRootViewC10TiniAppSDKE6bridge5propsABSgSo9RCTBridgeC_SDySSypGtcfc",
+            "mangledName": "$sSo11RCTRootViewC10TiniAppSDKE6bridge5propsABSgSo9RCTBridgeC_SDySSypGtcfc",
+            "moduleName": "TiniAppSDK",
+            "declAttributes": [
+              "Custom",
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)RCTRootView",
+        "moduleName": "React",
+        "isOpen": true,
+        "objc_name": "RCTRootView",
+        "declAttributes": [
+          "Custom",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getTiniAppBundle",
+            "printedName": "getTiniAppBundle()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8NSBundleC10TiniAppSDKE03getbC6Bundle10Foundation3URLVSgyFZ",
+            "mangledName": "$sSo8NSBundleC10TiniAppSDKE03getbC6Bundle10Foundation3URLVSgyFZ",
+            "moduleName": "TiniAppSDK",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/TiniAppSDK\/Models\/TiniUser.swift",
+      "kind": "StringLiteral",
+      "offset": 122,
+      "length": 8,
+      "value": "\"TiniAppSDK.TiniUser\""
+    },
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/TiniAppSDK\/TiniAppConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 21,
+      "value": "\"TKTiniAppSDK.bundle\""
+    },
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/TiniAppSDK\/TiniAppConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 13,
+      "value": "\"TikiMiniApp\""
+    },
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/TiniAppSDK\/TiniAppConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 17,
+      "value": "\"tiniapp-runtime\""
+    },
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/TiniAppSDK\/TiniAppConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 21,
+      "value": "\"TKTiniAppSDK.bundle\""
+    },
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/TiniAppSDK\/TiniAppConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 13,
+      "value": "\"TikiMiniApp\""
+    },
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/TiniAppSDK\/TiniAppConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 17,
+      "value": "\"tiniapp-runtime\""
+    },
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/TiniAppSDK\/TiniAppConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/TiniAppSDK\/TiniAppConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lap02435\/Documents\/Tiki\/2022\/miniapp_transfer\/tiniapp-sdk-runtime\/ios\/TiniAppSDK\/TiniAppConfiguration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 620,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

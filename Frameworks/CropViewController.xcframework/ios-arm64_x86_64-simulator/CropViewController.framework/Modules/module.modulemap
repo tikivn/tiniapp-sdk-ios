@@ -6,6 +6,6 @@ framework module CropViewController {
 }
 
 module CropViewController.Swift {
-    header "CropViewController-Swift.h"
-    requires objc
+  header "CropViewController-Swift.h"
+  requires objc
 }

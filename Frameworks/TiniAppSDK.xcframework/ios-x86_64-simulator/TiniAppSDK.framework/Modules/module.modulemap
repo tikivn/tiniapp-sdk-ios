@@ -6,6 +6,6 @@ framework module TiniAppSDK {
 }
 
 module TiniAppSDK.Swift {
-    header "TiniAppSDK-Swift.h"
-    requires objc
+  header "TiniAppSDK-Swift.h"
+  requires objc
 }

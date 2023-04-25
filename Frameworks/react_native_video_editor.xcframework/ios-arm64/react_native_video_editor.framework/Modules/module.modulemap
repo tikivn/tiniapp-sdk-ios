@@ -6,6 +6,6 @@ framework module react_native_video_editor {
 }
 
 module react_native_video_editor.Swift {
-    header "react_native_video_editor-Swift.h"
-    requires objc
+  header "react_native_video_editor-Swift.h"
+  requires objc
 }
